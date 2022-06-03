@@ -43,13 +43,23 @@
 .first-tittle>.col-8{
     margin: auto;
 }
-.first-tittle>.col-4>span{
+.first-tittle>.col-4>span>a{
     font-size: 13px;
     padding: 5px;
     color: #3e445a;
+    text-decoration: none;
 }
 .first-tittle>.col-8>span{
     font-size: 13px;
     padding: 8px;
     color: #3e445a;
+}
+
+.first-tittle>.col-4>span>a:hover{
+    color: #2bbef9;
+    transition: 0.2s;
+}
+.first-tittle>.col-8>span>strong>a:hover{
+    text-decoration: underline blue !important;
+    transition: 0.4s !important;
 }
