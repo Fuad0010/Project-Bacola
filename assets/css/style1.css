@@ -25,3 +25,31 @@
     height: auto;
     margin: 0 auto;
 }
+.first-tittle{
+    height: 40px;
+    display: flex;
+}
+.tittle-line{
+    width: auto;
+    height: 1px;
+    background-color: #7A7A7A;
+    opacity: 0.3;
+    position: relative;
+}
+.first-tittle>.col-4{
+    margin: auto 40px;
+
+}
+.first-tittle>.col-8{
+    margin: auto;
+}
+.first-tittle>.col-4>span{
+    font-size: 13px;
+    padding: 5px;
+    color: #3e445a;
+}
+.first-tittle>.col-8>span{
+    font-size: 13px;
+    padding: 8px;
+    color: #3e445a;
+}
