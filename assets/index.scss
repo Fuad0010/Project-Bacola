@@ -324,6 +324,31 @@
                         position: relative;
                         top: 6px;
                     }
+                    .desc{
+                        width: 120px;
+                        height: 20px;
+                        background-color: #edeef5;
+                        position: absolute;
+                        border-radius: 25px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        top: 224px;
+                        left: 167px;
+                        p{
+                            color: #71778e;
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .empty{
+                    // background-color: #2BBEF9;
+                
+                }
+                .menu-row-list{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
                 }
             }
         }
