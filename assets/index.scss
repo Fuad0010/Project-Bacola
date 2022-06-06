@@ -173,7 +173,8 @@
                     left: -200px;
                     width: 175px;
                     position: relative;
-                    border-radius: 5px;
+                    border-radius: 7px;
+                    box-shadow: 1px 1px 2px #3e445a2b;
                     .second-nav-left-2-icon{
                         font-size: 13px;
                         position: relative;
@@ -294,6 +295,34 @@
                             color: white;
                             font-size: 13px;
                         }
+                    }
+                }
+            }
+            .row{
+                .all-categories-menu{
+                    background-color: #2bbef9;
+                    width: 200px;
+                    height: 50px;
+                    margin: 20px;
+                    border-radius: 25px;
+                    align-items: center;
+                    display: flex;
+                    justify-content:space-around;
+                    padding-left: 20px;
+                    .fa-chevron-down{
+                        color: white;
+                        font-size: 13px;
+                    }
+                    .fa-bars{
+                        color: white;
+
+                    }
+                    p{
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 500;
+                        position: relative;
+                        top: 6px;
                     }
                 }
             }

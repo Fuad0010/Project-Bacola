@@ -185,7 +185,9 @@
   left: -200px;
   width: 175px;
   position: relative;
-  border-radius: 5px;
+  border-radius: 7px;
+  -webkit-box-shadow: 1px 1px 2px #3e445a2b;
+          box-shadow: 1px 1px 2px #3e445a2b;
 }
 
 * .my-nav-bar .my-nav-bar-container .row .second-nav-left-2 .second-nav-left-2-icon {
@@ -352,5 +354,39 @@
           justify-content: center;
   color: white;
   font-size: 13px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu {
+  background-color: #2bbef9;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 20px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu .fa-chevron-down {
+  color: white;
+  font-size: 13px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu .fa-bars {
+  color: white;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu p {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  top: 6px;
 }
 /*# sourceMappingURL=index.css.map */
