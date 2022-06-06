@@ -273,7 +273,6 @@
 
 * .my-nav-bar .my-nav-bar-container .row .second-nav-right {
   position: relative;
-  border: 1px solid black;
   left: -100px;
   width: 155px;
   display: -webkit-box;
@@ -282,9 +281,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-* .my-nav-bar .my-nav-bar-container .row .second-nav-right .icon-border {
+* .my-nav-bar .my-nav-bar-container .row .second-nav-right .user-icon-border {
   border: 1px solid #3030303e;
   border-radius: 50%;
   width: 30px;
@@ -300,8 +302,55 @@
           justify-content: center;
 }
 
-* .my-nav-bar .my-nav-bar-container .row .second-nav-right .icon-border .fa-user {
+* .my-nav-bar .my-nav-bar-container .row .second-nav-right .user-icon-border .fa-user {
   font-size: 16px;
   color: black !important;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .second-nav-right p {
+  top: 6px;
+  position: relative;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .second-nav-right .basket-icon-border {
+  border: none;
+  background-color: #f78da825;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .second-nav-right .basket-icon-border .fa-basket-shopping {
+  color: #cf2e2e;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .second-nav-right .basket-icon-border .basket-num-background {
+  width: 20px;
+  height: 20px;
+  background-color: #cf2e2e;
+  position: absolute;
+  top: 3px;
+  left: 130px;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 13px;
 }
 /*# sourceMappingURL=index.css.map */
