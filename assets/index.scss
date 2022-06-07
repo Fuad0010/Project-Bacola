@@ -448,11 +448,12 @@
                 height: 132px;
                 border: 1px solid rgba(0, 0, 0, 0.171);
                 display: flex;
-
                 img {
                     width: 100px;
+                    height: 80px;
                     text-align: center;
                     position: relative;
+                    top: 20px;
                 }
 
                 display: flex;
@@ -599,17 +600,20 @@
                 }
             }
             .chobani-desc{
-                width: 330px;
+                width: 300px;
                 height: 50px;
                 // background-color: #2bbef9;
+                
                 p{
+                    cursor: pointer;
                     font-size: 18px;
                     color: #202435;
+                    transition-duration: 0.4s;
                 }
-                .yogurt{
-                    margin-top: -15px;
+                p:hover{
+                    color: #3c4c94;
                 }
-            }
+                }
             .kg{
                 padding-top: 20px;
                 display: flex;
