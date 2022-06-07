@@ -847,7 +847,7 @@
                     padding: 18px;
                     border: 1px solid #c2c2d3;
                     border-top-left-radius: 7px;
-                    width: 240px;
+                    width: 235.6px;
                     height: 380px;
                     h4{
                         font-size: 8px;
@@ -943,5 +943,22 @@
                 }
             }
         }
+        .auto-ship-oreder{
+            width: 1175px;
+            height: 64px;
+            border-radius: 5px;
+            background-color: #fbeacf;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 35px;
+            cursor: pointer;
+            h5{
+                color: #202435;
+                font-size: 16px;
+                letter-spacing: 2.5px;
+            }
+        }
+        
     }
 }
