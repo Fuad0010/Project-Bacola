@@ -775,7 +775,7 @@
   border: 1px solid #c2c2d3;
   border-radius: 7px;
   width: 718.9 0.5px;
-  height: 742.5px;
+  height: 740px;
   margin-left: 51.5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -897,5 +897,24 @@
 * .ala .chcoclates-two .italian-style .sale-and-recommend .choco-desc .sale-price .price-now {
   color: #d51243;
   font-size: 18px;
+}
+
+* .ala .weekend-sale {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1175px;
+  height: 200px;
+}
+
+* .ala .weekend-sale img {
+  width: 570px;
+  height: 251px;
+  border-radius: 7px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=index.css.map */

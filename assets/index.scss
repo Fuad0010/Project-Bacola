@@ -670,7 +670,7 @@
             border: 1px solid #c2c2d3;
             border-radius: 7px;
             width: 718.9.5px;
-            height: 742.5px;
+            height: 740px;
             margin-left: 51.5px;
             display: flex;
             flex-wrap: wrap;
@@ -759,6 +759,20 @@
                         }
                     }
                 }
+            }
+        }
+        .weekend-sale{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            width: 1175px;
+            height: 200px;
+            // background-color: #233A95;
+            img{
+                width: 570px;
+                height: 251px;
+                border-radius: 7px;
+                cursor: pointer;
             }
         }
     }
