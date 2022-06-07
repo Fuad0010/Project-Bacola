@@ -490,8 +490,8 @@
             height: 100%;
             width: 1175px;
             .chobani{
-                height: 600px;
-                width: 400px;
+                height: 744px;
+                width: 420px;
                 border: 2px solid #cf2e2e;
                 border-radius: 7px;
                 padding-left: 25px;
@@ -598,10 +598,32 @@
                     font-size: 24px;
                 }
             }
+            .chobani-desc{
+                width: 330px;
+                height: 50px;
+                // background-color: #2bbef9;
+                p{
+                    font-size: 18px;
+                    color: #202435;
+                }
+                .yogurt{
+                    margin-top: -15px;
+                }
+            }
+            .kg{
+                padding-top: 20px;
+                display: flex;
+                width:  90px;
+                justify-content: space-between;
+                p{
+                    color: #9b9bb4;
+                    font-size: 11px;
+                }
+                span{
+                    color: #00b853;
+                    font-size: 11px;
+                }
+            }
         }  
     }
-      
-
-
-
 }
