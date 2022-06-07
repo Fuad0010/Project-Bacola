@@ -505,7 +505,8 @@
                     height: 48px;
                     display: flex;
                     #countdown-num{
-                     color: #ffffff;   
+                     color: #ffffff; 
+                     font-size: 24px;  
                     }
                     p{
                         color: #ED174A;
@@ -568,6 +569,7 @@
                    background-color: #ED174A;
                    border-radius: 50%;
                    h4{
+                       font-size: 24px;
                        color: white;
                        z-index: 1;
                    }
@@ -578,6 +580,23 @@
                    position: relative;
                    margin-top: -80px;
                }
+            }
+            .sale-price{
+                width: 130px;
+                height: 36px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                // background-color: #233a95;
+                h5{
+                    color: #c2c2d3;
+                    font-size: 20px;
+                    text-decoration:line-through;
+                }
+                h4{
+                    color: #d51243;
+                    font-size: 24px;
+                }
             }
         }  
     }
