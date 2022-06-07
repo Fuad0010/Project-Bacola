@@ -534,6 +534,22 @@
   font-size: 18px;
 }
 
+* .ala .second-chocolates .chobani .empty-point {
+  border-radius: 15px;
+  width: 350px;
+  height: 11px;
+  background-color: #c2c2d37d;
+  position: relative;
+  top: 50px;
+}
+
+* .ala .second-chocolates .chobani .empty-point .point {
+  border-radius: 15px;
+  width: 300px;
+  height: 100%;
+  background-color: #ff5500bc;
+}
+
 * .ala .second-chocolates .chobani .countdown {
   width: 230px;
   height: 48px;
@@ -947,7 +963,7 @@
 * .ala .entry-tittle .view-all-button {
   border: 1px solid #9b9bb4;
   border-radius: 25px;
-  width: 100px;
+  width: 120px;
   height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -964,9 +980,16 @@
 * .ala .entry-tittle .view-all-button h5 {
   font-size: 12px;
   color: #9b9bb4;
+  position: relative;
+  top: 4px;
 }
 
-* .ala .entry-tittle .view-all-button .view-all-button:hover h5 {
-  color: #c61c1c;
+* .ala .entry-tittle .view-all-button h5 i {
+  position: relative;
+  right: -10px;
+}
+
+* .ala .entry-tittle .view-all-button h5 h5:hover {
+  color: #00b853;
 }
 /*# sourceMappingURL=index.css.map */
