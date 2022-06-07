@@ -1312,4 +1312,22 @@
   position: relative;
   top: 5px;
 }
+
+* .ala .after-last-card-lists-1 {
+  width: 1175px;
+  height: auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* .ala .after-last-card-lists-1 img {
+  width: 369px;
+  height: 218px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=index.css.map */

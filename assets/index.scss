@@ -1068,5 +1068,21 @@
                 }
             }
         }
+        .after-last-card-lists-1{
+            width: 1175px;
+            height: auto;
+            // background-color: rgb(255, 191, 0);
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 369px;
+                height: 218px;
+                border-radius: 5px;
+            }
+        }
+        .after-last-card-lists-2{
+            
+        }
     }
 }
