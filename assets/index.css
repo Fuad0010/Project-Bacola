@@ -616,7 +616,7 @@
   height: 48px;
 }
 
-* .ala .second-chocolates .chobani .coundown-desc {
+* .ala .second-chocolates .chobani .countdown-desc {
   color: #c2c2d3;
   padding-top: 10px;
   font-size: 13px;
@@ -640,5 +640,13 @@
 
 * .ala .second-chocolates .chobani .sale-div h4 {
   color: white;
+  z-index: 1;
+}
+
+* .ala .second-chocolates .chobani img {
+  width: 350px;
+  z-index: -1;
+  position: relative;
+  margin-top: -80px;
 }
 /*# sourceMappingURL=index.css.map */

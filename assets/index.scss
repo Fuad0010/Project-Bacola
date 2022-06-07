@@ -554,7 +554,7 @@
                         height: 48px;
                     }
                 }
-               .coundown-desc{
+               .countdown-desc{
                    color: #c2c2d3;
                    padding-top: 10px;
                    font-size: 13px;
@@ -569,7 +569,14 @@
                    border-radius: 50%;
                    h4{
                        color: white;
+                       z-index: 1;
                    }
+               }
+               img{
+                   width: 350px;
+                   z-index: -1;
+                   position: relative;
+                   margin-top: -80px;
                }
             }
         }  
