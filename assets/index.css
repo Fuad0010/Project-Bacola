@@ -917,4 +917,56 @@
   border-radius: 7px;
   cursor: pointer;
 }
+
+* .ala .entry-tittle {
+  width: 1175px;
+  height: auto;
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* .ala .entry-tittle .entry1 h4 {
+  font-size: 20px;
+  color: #202435;
+}
+
+* .ala .entry-tittle .entry1 h5 {
+  font-size: 12px;
+  margin-top: -10px;
+  color: #9b9bb4;
+}
+
+* .ala .entry-tittle .view-all-button {
+  border: 1px solid #9b9bb4;
+  border-radius: 25px;
+  width: 100px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+* .ala .entry-tittle .view-all-button h5 {
+  font-size: 12px;
+  color: #9b9bb4;
+}
+
+* .ala .entry-tittle .view-all-button .view-all-button:hover h5 {
+  color: #c61c1c;
+}
 /*# sourceMappingURL=index.css.map */

@@ -775,5 +775,47 @@
                 cursor: pointer;
             }
         }
+        .entry-tittle{
+            width: 1175px;
+            height: auto;
+            // background-color: #00b853;
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .entry1{
+                h4{
+                    font-size: 20px;
+                    color: #202435;
+                }
+                h5{
+                    font-size: 12px;
+                    margin-top: -10px;
+                    color: #9b9bb4;
+                }
+            }
+            .view-all-button{
+                border: 1px solid #9b9bb4;
+                border-radius: 25px;
+                width: 100px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                h5{
+                    font-size: 12px;
+                    color: #9b9bb4;
+                }   
+                .view-all-button:hover{
+                    h5{
+                        color: #c61c1c;
+                    }
+                }
+            }
+            
+            
+        }
     }
 }
