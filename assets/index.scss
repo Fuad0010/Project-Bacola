@@ -644,5 +644,21 @@
                 left: 7.5px;
             }
         } 
+        .available{
+            width: 350px;
+            display: flex;
+            justify-content:end;
+            align-items: flex-end;
+            position: relative;
+            top: 40px;
+            h5{
+                color: #c2c2d3;
+                font-size: 11px;
+            }
+            h4{
+                color: #233a95;
+                font-size: 16px;
+            }
+        }
     }
 }

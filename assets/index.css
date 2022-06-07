@@ -737,4 +737,29 @@
   top: 3px;
   left: 7.5px;
 }
+
+* .ala .available {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  top: 40px;
+}
+
+* .ala .available h5 {
+  color: #c2c2d3;
+  font-size: 11px;
+}
+
+* .ala .available h4 {
+  color: #233a95;
+  font-size: 16px;
+}
 /*# sourceMappingURL=index.css.map */
