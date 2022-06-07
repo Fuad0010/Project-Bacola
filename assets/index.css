@@ -615,4 +615,30 @@
           align-items: center;
   height: 48px;
 }
+
+* .ala .second-chocolates .chobani .coundown-desc {
+  color: #c2c2d3;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+* .ala .second-chocolates .chobani .sale-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: #ED174A;
+  border-radius: 50%;
+}
+
+* .ala .second-chocolates .chobani .sale-div h4 {
+  color: white;
+}
 /*# sourceMappingURL=index.css.map */

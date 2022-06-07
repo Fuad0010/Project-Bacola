@@ -554,7 +554,23 @@
                         height: 48px;
                     }
                 }
-                
+               .coundown-desc{
+                   color: #c2c2d3;
+                   padding-top: 10px;
+                   font-size: 13px;
+               } 
+               .sale-div{
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   width: 70px;
+                   height: 70px;
+                   background-color: #ED174A;
+                   border-radius: 50%;
+                   h4{
+                       color: white;
+                   }
+               }
             }
         }  
     }
