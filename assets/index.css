@@ -511,7 +511,6 @@
 }
 
 * .ala .second-chocolates {
-  background-color: #233a9510;
   height: 100%;
   width: 1175px;
 }
@@ -710,5 +709,32 @@
 * .ala .second-chocolates .kg span {
   color: #00b853;
   font-size: 11px;
+}
+
+* .ala .star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80px;
+  height: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* .ala .star i {
+  font-size: 10px;
+  color: #ffbf00;
+}
+
+* .ala .star h5 {
+  font-size: 16px;
+  color: #71778e;
+  position: relative;
+  top: 3px;
+  left: 7.5px;
 }
 /*# sourceMappingURL=index.css.map */
