@@ -482,15 +482,17 @@
     }
     .ala{
         
-        padding-top: 20px;
+        padding-top: 40px;
         padding-left: 175px;
         
         .second-chocolates{
+            display: flex;
             // margin-left: 188px;
             // background-color: #233a9510;
             height: 100%;
             width: 1175px;
             .chobani{
+                
                 height: 744px;
                 width: 420px;
                 border: 2px solid #cf2e2e;
@@ -662,6 +664,102 @@
             h4{
                 color: #233a95;
                 font-size: 16px;
+            }
+        }
+        .chcoclates-two{
+            // background-color: #233A95;
+            border: 1px solid #c2c2d3;
+            border-radius: 7px;
+            width: 718.9.5px;
+            height: 742.5px;
+            margin-left: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            .italian-style{
+                .sale-and-recommend{
+                    margin-top: -1px;
+                    margin-left: -1px;
+                    padding: 18px;
+                    border: 1px solid #c2c2d3;
+                    border-top-left-radius: 7px;
+                    width: 240px;
+                    height: 370px;
+                    h4{
+                        font-size: 8px;
+                        background-color: #71778e;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 25px;
+                        width: 80px;
+                        border-radius: 3px;
+                        letter-spacing: -0.5px;
+                    }
+                    h5{
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 25px;
+                        width: 50px;
+                        border-radius: 3px;
+                        font-size: 13px;
+                        background-color: #0692e3bc;
+                    }
+                    img{
+                        width: 200px;
+                        z-index: -1;
+                        position: relative;
+                        margin-top: -57px;
+                    }
+                    .choco-desc{
+                        h3{
+                            font-size: 14.5px;
+                            cursor: pointer;
+                        }
+                        h3:hover{
+                            color: #3c4c94;
+                        }
+                        #IN-STOCK{
+                            letter-spacing: -1px;
+                            font-size: 11px;
+                            color: #00b853;
+                        }
+                        .star{
+                            display: flex;
+                            justify-content: space-between;
+                            width: 75px;
+                            .non-yellow{
+                                color: #c2c2d3;
+                                
+                            }
+                            h1{
+                                font-size: 12px;
+                                margin-top: 6px;
+                                margin-left: 2px;
+                                color: #71778e;
+                            }
+                        }
+                        .sale-price{
+                            width: 100px;
+                            height: 36px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: flex-end;
+                            // background-color: #233a95;
+                           .price-before{
+                                color: #c2c2d3;
+                                font-size: 15.3px;
+                                text-decoration:line-through;
+                            }
+                            .price-now{
+                                color: #d51243;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
