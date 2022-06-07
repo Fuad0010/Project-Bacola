@@ -481,10 +481,10 @@
 
     }
     .ala{
-        
+
         padding-top: 40px;
         padding-left: 175px;
-        
+
         .second-chocolates{
             display: flex;
             // margin-left: 188px;
@@ -521,8 +521,8 @@
                     height: 48px;
                     display: flex;
                     #countdown-num{
-                     color: #ffffff; 
-                     font-size: 24px;  
+                     color: #ffffff;
+                     font-size: 24px;
                     }
                     p{
                         color: #ED174A;
@@ -575,7 +575,7 @@
                    color: #c2c2d3;
                    padding-top: 10px;
                    font-size: 13px;
-               } 
+               }
                .sale-div{
                    display: flex;
                    justify-content: center;
@@ -618,7 +618,7 @@
                 width: 300px;
                 height: 50px;
                 // background-color: #2bbef9;
-                
+
                 p{
                     cursor: pointer;
                     font-size: 18px;
@@ -643,7 +643,7 @@
                     font-size: 11px;
                 }
             }
-        } 
+        }
         .star{
             display: flex;
             width: 80px;
@@ -662,7 +662,7 @@
                 top: 3px;
                 left: 7.5px;
             }
-        } 
+        }
         .available{
             width: 350px;
             display: flex;
@@ -745,7 +745,7 @@
                             width: 75px;
                             .non-yellow{
                                 color: #c2c2d3;
-                                
+
                             }
                             h1{
                                 font-size: 12px;
@@ -797,7 +797,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            
+
             .entry1{
                 h4{
                     font-size: 20px;
@@ -828,16 +828,120 @@
                         right: -10px;
                     }
                     h5:hover{
-                        
+
                             color: #00b853;
-                        
+
                     }
-                }   
-                
-                
+                }
             }
-            
-            
+        }
+        .best-sellers-cards{
+            width: 1175px;
+            display: flex;
+            // background-color: #00b853;
+            margin-top: 20px;
+            .italian-style{
+                .sale-and-recommend{
+                    margin-top: -1px;
+                    margin-left: -1px;
+                    padding: 18px;
+                    border: 1px solid #c2c2d3;
+                    border-top-left-radius: 7px;
+                    width: 240px;
+                    height: 380px;
+                    h4{
+                        font-size: 8px;
+                        background-color: #71778e;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 25px;
+                        width: 80px;
+                        border-radius: 3px;
+                        letter-spacing: -0.5px;
+                    }
+                    h5{
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 25px;
+                        width: 50px;
+                        border-radius: 3px;
+                        font-size: 13px;
+                        background-color: #0692e3bc;
+                    }
+                    img{
+                        width: 200px;
+                        z-index: -1;
+                        position: relative;
+                        margin-top: -57px;
+                    }
+                    .choco-desc{
+                        h3{
+                            font-size: 14.5px;
+                            cursor: pointer;
+                        }
+                        h3:hover{
+                            color: #3c4c94;
+                        }
+                        #IN-STOCK{
+                            letter-spacing: -1px;
+                            font-size: 11px;
+                            color: #00b853;
+                        }
+                        .star{
+                            display: flex;
+                            justify-content: space-between;
+                            width: 75px;
+                            .non-yellow{
+                                color: #c2c2d3;
+
+                            }
+                            h1{
+                                font-size: 12px;
+                                margin-top: 6px;
+                                margin-left: 2px;
+                                color: #71778e;
+                            }
+                        }
+                        .sale-price{
+                            width: 100px;
+                            height: 36px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: flex-end;
+                            // background-color: #233a95;
+                           .price-before{
+                                color: #c2c2d3;
+                                font-size: 15.3px;
+                                text-decoration:line-through;
+                            }
+                            .price-now{
+                                color: #d51243;
+                                font-size: 18px;
+                            }
+                        }
+                        .add-to-card-button{
+                            border-radius: 55px;
+                            background-color: #ffcd00;
+                            width: 194px;
+                            height: 34px;
+                            margin-top: 5px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            h1{
+                                font-size: 12px;
+                                color: #202435;
+                                position: relative;
+                                top: 5px;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
