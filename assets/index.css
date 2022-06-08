@@ -1423,4 +1423,46 @@
   position: relative;
   top: 1px;
 }
+
+* footer {
+  width: 100%;
+}
+
+* footer .discount-location {
+  margin-top: 110px;
+  width: 100%;
+  height: 152px;
+  padding-left: 170px;
+  background-color: #233A95;
+}
+
+* footer .discount-location .discount-desc {
+  width: 470px;
+  height: 100%;
+  padding-top: 40px;
+}
+
+* footer .discount-location .discount-desc h5 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+* footer .discount-location .discount-desc h3 {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+* footer .discount-location .discount-desc h1 {
+  font-size: 13px;
+  color: #71778e;
+}
+
+.slick-arrow {
+  background-color: #233A95;
+}
+
+.slick-arrow .slick-arrow:hover {
+  display: block;
+}
 /*# sourceMappingURL=index.css.map */
