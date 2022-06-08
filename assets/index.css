@@ -1517,6 +1517,12 @@
   margin-top: 53px;
 }
 
+* footer .footer-bacgroundd {
+  height: 20px;
+  width: 100%;
+  background-color: #f7f8fd;
+}
+
 * footer .discount-menu {
   margin-top: 30px;
   -webkit-box-align: center;
@@ -1541,6 +1547,11 @@
 * footer .discount-menu h5 {
   font-size: 13px;
   color: black;
+}
+
+* footer .footer-bacground {
+  background-color: #f7f8fd;
+  margin-top: -30px;
 }
 
 * footer .line-1 {
