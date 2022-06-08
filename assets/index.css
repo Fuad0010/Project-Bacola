@@ -1532,7 +1532,7 @@
 }
 
 * footer .discount-menu div {
-  opacity: 0.5;
+  opacity: 0.2;
   height: 35px;
   width: 1px;
   background-color: #71778e;
@@ -1541,6 +1541,46 @@
 * footer .discount-menu h5 {
   font-size: 13px;
   color: black;
+}
+
+* footer .line-1 {
+  height: 1px;
+  width: 1200px;
+  background-color: #71778e;
+  opacity: 0.2;
+  margin-top: 25px;
+}
+
+* footer .bacola-menu {
+  margin-top: 100px;
+  width: 1200px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* footer .bacola-menu ul h5 {
+  font-size: 15px;
+  color: #202435;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+* footer .bacola-menu ul div {
+  margin-top: 20px;
+}
+
+* footer .bacola-menu ul li {
+  cursor: pointer;
+  list-style-type: none;
+  color: #555a6c;
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 100;
 }
 
 .slick-arrow {

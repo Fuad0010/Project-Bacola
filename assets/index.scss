@@ -1255,7 +1255,7 @@
             // margin-left: 400px;   
             // background-color: #00b853;
             div{
-                opacity: 0.5;
+                opacity: 0.2;
                 height: 35px;
                 width: 1px;
                 background-color: #71778e;
@@ -1265,7 +1265,43 @@
                 color: black;
             }
         }
-        
+        .line-1{
+            height: 1px;
+            width: 1200px;
+            background-color: #71778e;
+            opacity: 0.2;
+            margin-top: 25px;
+        }
+        .bacola-menu{
+            margin-top: 100px;
+            width: 1200px;
+            height: auto;
+            // background-color: #00b853;
+            display: flex;
+            justify-content: space-between;
+            
+            ul{
+                h5{
+                    font-size: 15px;
+                    color: #202435;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+                div{
+                    margin-top: 20px;
+                }
+                
+                li{
+                    cursor: pointer;
+                    list-style-type: none;
+                    color: #555a6c;
+                    font-size: 13px;
+                    margin-top: 10px;
+                    font-weight: 100;
+                }
+            }
+            
+        }
     }
 }
 
