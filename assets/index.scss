@@ -1162,97 +1162,110 @@
     // }
     footer{
         // background-color: #233A95;
-        width: 100%;
-
-        .discount-location{
-            display: flex;
-            margin-top: 110px;
+        
+        .discount-background{
             width: 100%;
-            height: 330px;
-            padding-left:   170px;
-            background-color: #233A95;
-            .discount-desc{
-                width: 470px;
-                height: 100%;
-                //  background-color: #00b853;
-                padding-top: 40px;
-                h5{
-                    color: #ffffff;
-                    font-size: 16px;
-                    font-weight: 100;    
-                } 
-                h3{
-                    color: #ffffff;
-                    font-size: 26px;
-                }
-                .join-desc{
-                    margin-top: 20px;
-                    h1{
-                        font-size: 13px;
-                        color: #71778e;
-                    }
-                    h2{
-                        font-size: 13px;
-                        color: #71778e;
-                        margin-top: -7px;    
-                    }
-                    
-                }
-                .discount-email{
-                    display: flex;
-                    justify-content: flex-start;
+            .discount-location{
+                display: flex;
+                margin-top: 110px;
+                width: 100%;
+                height: 330px;
+                padding-left:   170px;
+                background-color: #233A95;
+                .discount-desc{
+                    width: 470px;
                     height: 100%;
-                    margin-top: 40px;
-
-                    .email {
-                        border: solid 1px #f3f4f7;
-                        border-radius: 5px;
-                        height: 60px;
-                        width: 100%;
-                        background-color: #f3f4f7;
-                        padding-left: 15px;
-                        font-size: 15px;
+                    //  background-color: #00b853;
+                    padding-top: 40px;
+                    h5{
+                        color: #ffffff;
+                        font-size: 16px;
+                        font-weight: 100;    
+                    } 
+                    h3{
+                        color: #ffffff;
+                        font-size: 26px;
                     }
-
-                    .fa-solid {
-                        position: absolute;
-                        font-size: 25px;
-                        left: 500px;
-                        top: 19px;
+                    .join-desc{
+                        margin-top: 20px;
+                        h1{
+                            font-size: 13px;
+                            color: #71778e;
+                        }
+                        h2{
+                            font-size: 13px;
+                            color: #71778e;
+                            margin-top: -7px;    
+                        }
+                        
                     }
-
-                    button {
-                        width: 120px;
-                        border: none;
-                        border-radius: 4px;
-                        height: 50px;
-                        background-color: #233A95;
-                        // position: relative;
-                        // left: -80px;
-                        margin-left: -125px;
-                        margin-top: 5px;
-                        color: white;
+                    .discount-email{
+                        display: flex;
+                        justify-content: flex-start;
+                        height: 100%;
+                        margin-top: 40px;
+    
+                        .email {
+                            border: solid 1px #f3f4f7;
+                            border-radius: 5px;
+                            height: 60px;
+                            width: 100%;
+                            background-color: #f3f4f7;
+                            padding-left: 15px;
+                            font-size: 15px;
+                        }
+    
+                        .fa-solid {
+                            position: absolute;
+                            font-size: 25px;
+                            left: 500px;
+                            top: 19px;
+                        }
+    
+                        button {
+                            width: 120px;
+                            border: none;
+                            border-radius: 4px;
+                            height: 50px;
+                            background-color: #233A95;
+                            // position: relative;
+                            // left: -80px;
+                            margin-left: -125px;
+                            margin-top: 5px;
+                            color: white;
+                        }
                     }
                 }
-            }
-            .img-discount{
-                width: 510px;
-                height: 277px;
-                // background-color: #00b853;
-                margin-left: 200px;
-                margin-top: 53px;
+                .img-discount{
+                    width: 510px;
+                    height: 277px;
+                    // background-color: #00b853;
+                    margin-left: 200px;
+                    margin-top: 53px;
+                }
+                
             }
         }
         .discount-menu{
+            margin-top: 30px;
+            align-items: center;
             display: flex;
-            
+            width: 1100px;
+            justify-content: space-between;
+            // margin-left: 400px;   
+            // background-color: #00b853;
             div{
-
+                opacity: 0.5;
+                height: 35px;
+                width: 1px;
+                background-color: #71778e;
             }
             h5{
-
+                font-size: 13px;
+                color: black;
             }
         }
+        
     }
 }
 
