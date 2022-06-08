@@ -1078,6 +1078,7 @@
             img{
                 width: 369px;
                 height: 218px;
+                cursor: pointer;
                 border-radius: 5px;
             }
         }
@@ -1092,6 +1093,62 @@
                 width: 369px;
                 height: 250px;
                 border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+        .after-last-card-lists-desc{
+            width: 1175px;
+            height: auto;
+            // background-color: #233A95;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            .card-list-desc{
+                width: 369px;
+                // background-color: #00b853;
+                height: auto;
+                h5{
+                    color: #9b9bb4;
+                    font-size: 13px;
+                }
+                h4{
+                    font-size: 20px;
+                    color: #202435;
+                }
+            }
+            .card-list-by-bacola{
+                width: 250px;
+                height: auto;
+                // background-color: #00b853;
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                h5{
+                    color: #71778e;
+                    font-size: 14px;
+                }
+                h4{
+                    color: #202435;
+                    font-size: 14px;
+                }
+                .by-bacola{
+                    display: flex;
+                    justify-content: space-between;
+                    width:  60px;
+                    // background-color: red;
+                    // background-color: #233A95;
+                    i{
+                        font-size: 14px;
+                        color: #71778e;
+                    }
+                    h3{
+                        font-size: 14px;
+                        color: #202435;
+                        position: relative;
+                        top: 1px;
+                        
+                    }
+                }
             }
         }
     }
