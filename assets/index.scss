@@ -1313,11 +1313,13 @@
             
         }
         .last-footer{
-            background-color: #00b853;
-            height: 200px;
+            // background-color: #00b853;
+            margin-top: 15px;
+            height: 100px;
             width: 1175px;
             .social-location{
                 display: flex;
+                justify-content: space-between;
                 padding: 20px;
                 .social-footer{
                     display: flex;
@@ -1354,9 +1356,51 @@
                         }
                     }
                 }
+                .app-mobile{
+                    width: 600px;
+                    // background-color: #233A95;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .footer-social-icon{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        border: solid 1px #71778e;
+                            color: #233A95;
+                            i{
+                                font-size: 15px;
+                            }
+                    }
+                    img{
+                        cursor: pointer;
+                        width: 116px;
+                        height: 36px;
+                    }
+                    .footer-download-mobile-font{
+                        
+                        h5 {
+                            font-size: 14px;
+                            color: #202435;
+                            
+                        }
+                
+                        h4 {
+                            font-size: 12px;
+                            opacity: 0.7;
+                            color: #202435;
+                            position: relative;
+                            top: -5px;
+                        }
+                    }
+                }
+            }
+            .bacola-footer-desc{
                 
             }
-            
         }
     }
 }
