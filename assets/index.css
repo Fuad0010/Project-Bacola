@@ -354,6 +354,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  cursor: pointer;
 }
 
 * .my-nav-bar .my-nav-bar-container .row .second-nav-left-1 img {
