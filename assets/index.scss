@@ -109,18 +109,22 @@
                             cursor: pointer;
 
                             .english-hover-div {
-                                background: whit !important;
+                                background: white !important;
                                 display: none;
+                                right: 318px;
                                 position: absolute;
                                 color: black;
-                                width: 60px;
-                                height: 80px;
-                                line-height: 2;
+                                box-shadow: 1px 1px 2px #3e445a2b;
+                                width: 70px;
+                                height: 90px;
+                                line-height: 2; 
                                 padding-top: 10px;
                                 transition: 0.3s linear !important;
                                 transform: translateY(-4px);
                                 z-index: 1123;
-
+                                span{
+                                    margin-left: 16px;
+                                }
                                 span:hover {
                                     color: #2BBEF9;
 
@@ -128,20 +132,23 @@
                             }
 
                             .usd-hover-div {
+                                right: 318px;
                                 z-index: 1123;
-
+                                box-shadow: 1px 1px 2px #3e445a2b;
                                 display: none;
                                 position: absolute;
                                 color: black;
-                                width: 60px;
-                                height: 80px;
+                                width: 70px;
+                                height: 90px;
                                 line-height: 2;
                                 padding-top: 10px;
                                 transition: 0.3s linear !important;
                                 background: white !important;
-
+                                
                                 transform: translate(65px, -4px);
-
+                                span{
+                                    margin-left: 20px;
+                                }
                                 span:hover {
                                     color: #2BBEF9;
                                 }
@@ -197,7 +204,7 @@
                     position: relative;
                     border-radius: 7px;
                     box-shadow: 1px 1px 2px #3e445a2b;
-
+                    cursor: pointer;
                     .second-nav-left-2-icon {
                         font-size: 13px;
                         position: relative;
@@ -350,7 +357,7 @@
                     display: flex;
                     justify-content: space-around;
                     padding-left: 20px;
-
+                    cursor: pointer;
                     .fa-chevron-down {
                         color: white;
                         font-size: 13px;
@@ -398,6 +405,9 @@
                     align-items: center;
                     justify-content: space-between;
                     margin-left: 25px;
+                    p{
+                        cursor: pointer;
+                    }
                 }
             }
         }
@@ -837,6 +847,8 @@
         }
         
         .best-sellers-cards{
+            border:1px solid #202435;
+            z-index: 1;
             width: 1175px;
             display: flex;
             // background-color: #00b853;
@@ -933,6 +945,7 @@
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            cursor: pointer;
                             h1{
                                 font-size: 12px;
                                 color: #202435;
@@ -1371,7 +1384,8 @@
                         height: 30px;
                         border-radius: 50%;
                         border: solid 1px #71778e;
-                            color: #233A95;
+                                cursor: pointer;
+                                color: #233A95;
                             i{
                                 font-size: 15px;
                             }
@@ -1431,6 +1445,7 @@
                         text-decoration: underline;
                     }
                     img{
+                        cursor: pointer;
 
                     }
                 }
@@ -1442,9 +1457,22 @@
 
 
 .slick-arrow{
-    background-color: #233A95;
-
+    // background-color: #233A95;
+    border-radius: 50%;
+    border: 1px solid #555a6c;
+    width: 50px !important;
+    height: 50px !important;
+    background-color: white;
+    color: #71778e;
+    z-index: 8888;
     .slick-arrow:hover{
-        display:block;
+    
+
     }
+}
+.slick-prev:before, .slick-next:before{
+    color: #71778e;
+}
+.slick-prev:before:hover, .slick-next:before:hover{
+    color: #71778e;
 }
