@@ -231,6 +231,121 @@
   color: #233a95;
 }
 
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal {
+  background-color: white;
+  width: 420px;
+  height: 532px;
+  position: absolute;
+  left: 530px;
+  z-index: 9999;
+  padding: 24px;
+  border-radius: 7px;
+  top: 95px;
+  border: 1px solid black;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .fa-x {
+  cursor: pointer;
+  font-size: 15px;
+  position: absolute;
+  right: 20px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .fa-x:hover {
+  color: red;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal h5 {
+  color: #202435;
+  font-size: 16px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal h4 {
+  color: #202435;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-search-div {
+  background-color: #f3f4f7;
+  border-radius: 7px;
+  padding-left: 15px;
+  padding-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-search-div .search-icon {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-search-div .search-area {
+  height: 48px;
+  background: none;
+  border: none;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-scroll {
+  height: 365px;
+  margin-top: 20px;
+  width: 100%;
+  overflow: auto;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-scroll .modal-area {
+  height: 52px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-scroll .modal-area .modal-area-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 18px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-scroll .modal-area .modal-area-name h5 {
+  font-size: 14px;
+  color: #202435;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-scroll .modal-area .modal-area-name-desc {
+  padding-right: 20px;
+  border-radius: 25px;
+  border: 1px solid #9b9bb4;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-scroll .modal-area .modal-area-name-desc h4 {
+  position: relative;
+  left: 10px;
+  top: 3px;
+  font-size: 10px;
+  color: #9b9bb4;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-scroll .modal-area-line {
+  width: 100%;
+  height: 1px;
+  background-color: #9b9bb4;
+  margin-top: 6px;
+  opacity: 0.6;
+  position: relative;
+  top: 20px;
+}
+
 * .my-nav-bar .my-nav-bar-container .row .second-nav-left-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1014,7 +1129,7 @@
 }
 
 * .ala .best-sellers-cards {
-  border: 1px solid #202435;
+  border: 1px solid #c2c2d3;
   z-index: 1;
   width: 1175px;
   display: -webkit-box;
