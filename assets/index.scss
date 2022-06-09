@@ -1353,6 +1353,7 @@
                             color: #202435;
                             position: relative;
                             top: -5px;
+                            font-weight: 100;
                         }
                     }
                 }
@@ -1394,12 +1395,45 @@
                             color: #202435;
                             position: relative;
                             top: -5px;
+                            font-weight: 100;
                         }
                     }
                 }
             }
             .bacola-footer-desc{
-                
+                display: flex;
+                height: 100px;
+                // background-color: #00b853;
+                margin-top: 10px;
+                justify-content: space-between;
+                align-items: center;
+                .bacola-desc-1{
+                    padding-left: 20px;
+                    h5{
+                        font-size: 12px;
+                        color: #9b9bb4;
+                        font-weight: 100;
+                    }   
+                }
+                .bacola-desc-2{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 600px;
+                    align-items: center;
+                    // background-color: #233A95;
+                    h5{
+                        font-size: 12px;
+                        color: #9b9bb4;
+                        cursor: pointer;
+                        font-weight: 100;
+                    }
+                    h5:hover {
+                        text-decoration: underline;
+                    }
+                    img{
+
+                    }
+                }
             }
         }
     }
