@@ -229,10 +229,11 @@
                 }
                 
                 .select-loaction-modal{
+                    position: fixed;
                     background-color: white;
                     width: 420px;
                     height: 532px;
-                    position: absolute;
+                    // position: absolute;
                     left: 530px;
                     z-index: 9999;
                     padding: 24px;
@@ -285,6 +286,7 @@
                         .modal-area{
                             // background-color: beige;
                             height: 52px;
+                            
                             .modal-area-name{
                                 display: flex;
                                 justify-content: space-between;
@@ -296,7 +298,11 @@
                                 h5{
                                     font-size: 14px;
                                     color: #202435;
-                                }
+                                }           
+                            }
+                            .modal-area-name:hover h5{
+                                color: #233a95;
+                                transition: 0.3s;
                             }
                             .modal-area-name-desc{
                                 // display: flex;
@@ -313,6 +319,7 @@
                                 color: #9b9bb4;
                                 }
                             }
+                            
                         }
                         .modal-area-line{
                             width: 100%;
@@ -325,7 +332,6 @@
                         }
                     }
                 }
-
                 .second-nav-left-1 {
                     display: flex;
                     flex-direction: column;

@@ -232,10 +232,10 @@
 }
 
 * .my-nav-bar .my-nav-bar-container .row .select-loaction-modal {
+  position: fixed;
   background-color: white;
   width: 420px;
   height: 532px;
-  position: absolute;
   left: 530px;
   z-index: 9999;
   padding: 24px;
@@ -320,6 +320,12 @@
 * .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-scroll .modal-area .modal-area-name h5 {
   font-size: 14px;
   color: #202435;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-scroll .modal-area .modal-area-name:hover h5 {
+  color: #233a95;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 * .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .modal-scroll .modal-area .modal-area-name-desc {
