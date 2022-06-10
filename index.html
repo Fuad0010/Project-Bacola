@@ -21,1205 +21,1209 @@
      <link rel="stylesheet" href="assets/index.css">
 </head>
 <body>
-    <div class="top-header">
-        <div class="container">
-            <p>Due to  the <span>covid 19</span> epidemic, orders may be processed with a slight delay</p>
-        </div>
-    </div>
-    <div class="bottom-header">
-        <div class="container bottom-header-container">
-<div class="row">
-    <div class="col-4 col-left">
-        <ul>
-            <li><a href="">About us</a></li>
-            <li><a href="">My account</a></li>
-            <li><a href="">Whishlist</a></li>
-            <li><a href="">Order Tracking</a></li>
-        </ul>
-    </div>
-    <div class="col-3 col-center">
-<p><i class="fa-solid fa-hand"></i> 100% Secure delivery without contacting the courier</p>
-    </div>
-    <div class="col-5 col-right">
-       <div class="col-6 col-right-1">
-        <p> Need help? Call Us: <a href="">+0020 500</a></p>
-       </div>
-       <div class="col-6 col-right-2">
-        <span id="english">English <i class="fa-solid fa-chevron-down"></i> 
-        <div class="english-hover-div">
-            <span>English</span>
-            <span>Spanish</span>
-            <span>German</span>
-        </div>
-        </span>
-        <span id="usd">USD <i class="fa-solid fa-chevron-down"></i>
-            <div class="usd-hover-div">
-                <span>USD</span>
-                <span>INR</span>
-                <span>GBP</span>
+    <div id="allContent" class="all-content">
+        <div class="top-header">
+            <div class="container">
+                <p>Due to  the <span>covid 19</span> epidemic, orders may be processed with a slight delay</p>
             </div>
-        </span>
-       </div>
-            </div>
-</div>
         </div>
+        <div class="bottom-header">
+            <div class="container bottom-header-container">
+    <div class="row">
+        <div class="col-4 col-left">
+            <ul>
+                <li><a href="">About us</a></li>
+                <li><a href="">My account</a></li>
+                <li><a href="">Whishlist</a></li>
+                <li><a href="">Order Tracking</a></li>
+            </ul>
+        </div>
+        <div class="col-3 col-center">
+    <p><i class="fa-solid fa-hand"></i> 100% Secure delivery without contacting the courier</p>
+        </div>
+        <div class="col-5 col-right">
+           <div class="col-6 col-right-1">
+            <p> Need help? Call Us: <a href="">+0020 500</a></p>
+           </div>
+           <div class="col-6 col-right-2">
+            <span id="english">English <i class="fa-solid fa-chevron-down"></i> 
+            <div class="english-hover-div">
+                <span>English</span>
+                <span>Spanish</span>
+                <span>German</span>
+            </div>
+            </span>
+            <span id="usd">USD <i class="fa-solid fa-chevron-down"></i>
+                <div class="usd-hover-div">
+                    <span>USD</span>
+                    <span>INR</span>
+                    <span>GBP</span>
+                </div>
+            </span>
+           </div>
+                </div>
     </div>
-    <div class="my-nav-bar">
-        <div class="container my-nav-bar-container">
-            <div class="row">
-                <div class="col-4 second-nav-left-1">
-                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png" alt="">
-                    <span>Online Grocery Shopping Center</span>
-                </div>
-                <div class="col-2 second-nav-left-2">
-                    <h5>Your Location<i class="fa-solid fa-chevron-down second-nav-left-2-icon"></i></h5>
-                    <h4> Select a Location </h4>  
-                </div>
-                <!-- <div class="container select-loaction-modal">
-                    <i class="fa-solid fa-x" id="modal-exit"></i>
-                    <h5>Choose your Delivery Location</h5>
-                    <h4>Enter your address and we will specify the offer for your area.</h4>
-                    <div class="modal-search-div " id="modal-search-div-id">
-                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                        <input type="search" name="" style="font-family:Arial, FontAwesome" placeholder="Search your area" id="" class="search-area">
+            </div>
+        </div>
+        <div class="my-nav-bar">
+            <div class="container my-nav-bar-container">
+                <div class="row">
+                    <div class="col-4 second-nav-left-1">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png" alt="">
+                        <span>Online Grocery Shopping Center</span>
                     </div>
-                    <div class="modal-scroll">
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
-                                </div>
-                            </div>
-                            <div class="modal-area-line"></div>
+                    <div id="selectLocation" class="col-2 second-nav-left-2">
+                        <h5>Your Location<i class="fa-solid fa-chevron-down second-nav-left-2-icon"></i></h5>
+                        <h4> Select a Location </h4>  
+                    </div>
+                    <!-- <div class="overlay"></div> -->
+                    <div id="areaModal" class="container select-loaction-modal ">
+                        <i class="fa-solid fa-x" id="modalExit"></i>
+                        <h5>Choose your Delivery Location</h5>
+                        <h4>Enter your address and we will specify the offer for your area.</h4>
+                        <div class="modal-search-div " id="modal-search-div-id">
+                            <i id="modalExit" class="fa-solid fa-magnifying-glass search-icon"></i>
+                            <input type="search" name="" style="font-family:Arial, FontAwesome" placeholder="Search your area" id="" class="search-area">
                         </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                        <div class="modal-scroll">
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
-                        </div>
-                        <div class="modal-area">
-                            <div class="modal-area-name">
-                                <h5>Select a Location</h5>
-                                <div class="modal-area-name-desc">
-                                    <h4>Clear All</h4>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
                                 </div>
+                                <div class="modal-area-line"></div>
                             </div>
-                            <div class="modal-area-line"></div>
+                            <div class="modal-area">
+                                <div class="modal-area-name">
+                                    <h5>Select a Location</h5>
+                                    <div class="modal-area-name-desc">
+                                        <h4>Clear All</h4>
+                                    </div>
+                                </div>
+                                <div class="modal-area-line"></div>
+                            </div>
+                            
                         </div>
+                    </div>
+                    <div class="col-5 second-nav-center">
+                        <form class="second-nav-center-search" action="">
+                            <input type="text" name="" placeholder="Search for products..." id="" class="search">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-1 second-nav-right">
+                        <div class="user-icon-border">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <p>$0.00 </p>
+                        <div class="basket-icon-border">
+                            <i class="fa-solid fa-basket-shopping"></i>                        
+                            <div class="basket-num-background">
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 all-categories-menu">
+                            <i class="fa-solid fa-bars"></i>
+                            <p>ALL CATEGORIES</p>
+                            <i class="fa-solid fa-chevron-down second-nav-left-2-icon"></i>
+                            <div class="desc">
+                               <p>TOTAL 63 PRODUCTS</p> 
+                            </div>
+                        </div>
+                        <div class="col-1 empty"></div>
+                        <div class="col-8 menu-row-list">
+                            <p>HOME <i class="fa-solid fa-chevron-down second-nav-left-2-icon"></i></p>
+                            <p>SHOPHOME <i class="fa-solid fa-chevron-down second-nav-left-2-icon"></i></p>
+                            <p><i class="fa-solid fa-drumstick-bite"></i> MEATS & SEAFOODS</p>
+                            <p><i class="fa-solid fa-cake-candles"></i> BAKERY</p>
+                            <p><i class="fa-solid fa-mug-hot"></i> BEVERAGES</p>
+                            <p>BLOG</p>
+                            <p>CONTACT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="slide">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/img/first-sale-1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/first-sale-2.png" class="d-block w-100" alt="...">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>        
+            </div>
+                <div class="container fruits">
+                    <div class="big-photo">
+                        <img src="/assets/img/after-first-section-1/baverages-1.jpg" alt="">
+                        <h5>Beverages</h5>
+                        <p>11 Items</p>
+                    </div>
+                    <div class="eight-items">
+                        <div class="biscuit">
+                            <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
+                           <div class="paragraph">
+                            <h4>Biscuits &</h4>
+                            <h4>Snacks</h4>
+                            <h5>6 Items</h5>
+                         </div>
+                        </div>
+                         <div class="biscuit">
+                             <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
+                            <div class="paragraph">
+                             <h4>Biscuits &</h4>
+                             <h4>Snacks</h4>
+                             <h5>6 Items</h5>
+                          </div>
+                        </div>
+                          <div class="biscuit">
+                             <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
+                            <div class="paragraph">
+                             <h4>Biscuits &</h4>
+                             <h4>Snacks</h4>
+                             <h5>6 Items</h5>
+                          </div>
+                        </div>
+                          <div class="biscuit">
+                             <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
+                            <div class="paragraph">
+                             <h4>Biscuits &</h4>
+                             <h4>Snacks</h4>
+                             <h5>6 Items</h5>
+                          </div>
+                         </div> 
+                        <div class="biscuit">
+                            <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
+                           <div class="paragraph">
+                            <h4>Biscuits &</h4>
+                            <h4>Snacks</h4>
+                            <h5>6 Items</h5>
+                         </div>
+                        </div>
+                         <div class="biscuit">
+                             <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
+                            <div class="paragraph">
+                             <h4>Biscuits &</h4>
+                             <h4>Snacks</h4>
+                             <h5>6 Items</h5>
+                          </div>
+                        </div>
+                          <div class="biscuit">
+                             <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
+                            <div class="paragraph">
+                             <h4>Biscuits &</h4>
+                             <h4>Snacks</h4>
+                             <h5>6 Items</h5>
+                          </div>
+                        </div>
+                          <div class="biscuit">
+                             <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
+                            <div class="paragraph">
+                             <h4>Biscuits &</h4>
+                             <h4>Snacks</h4>
+                             <h5>6 Items</h5>
+                          </div>
+                         </div>  
+                    </div>                  
+            </div>
+    <section class="ala">
+        <div  class="second-chocolates">
+            <div class="chobani">
+                <p>Deals of the <strong>week!</strong></p>
+                <div class="countdown">
+                    <div class="day"><h4 id="countdown-num">11</h4></div>
+                    <p>:</p>
+                    <div class="hour"><h4 id="countdown-num">11</h4></div>
+                    <p>:</p>
+                    <div class="minute"><h4 id="countdown-num">11</h4></div>
+                    <p>:</p>
+                    <div class="second"><h4 id="countdown-num">11</h4></div>
+                </div>
+               <p class="countdown-desc"> Remains until the end of the offer</p>
+                <div class="sale-div">
+                    <h4>19%</h4> 
+                </div>
+                <img src="/assets/img/second-chocolates/chobani/chobani.jpg" alt="">
+                <div class="sale-price">
+                <h5>%5.49</h5> 
+                <h4>$4.49</h4> 
+            </div>
+            <div class="chobani-desc">
+            <p class="chobani-hover">Chobani Complete Vanilla Greek Yogurt</p>
+            </div>
+            <div class="kg">
+                <p>1 kg</p> <span>IN STOCK</span>
+            </div>
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h5>1</h5>
+            </div>
+            <div class="available">
+                <h5>AVAILABLE: </h5>
+                <h4>17</h4>
+            </div>
+            <div class="empty-point">
+                <div class="point">
+    
+                </div>
+            </div>
+        </div>
+        <div class="chcoclates-two">
+                <div class="italian-style">
+                    <div class="sale-and-recommend">
+                        <h5>23%</h5>
+                        <h4><strong>RECOMMENDED</strong></h4>
+                        <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                        <div class="choco-desc">
+                            <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                            <h2 id="IN-STOCK">IN STOCK</h2>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star non-yellow"></i>
+                                <h1>1</h1>
+                            </div>
+                            <div class="sale-price">
+                                <h2 class="price-before">%9.35</h2> 
+                                <h2 class="price-now">$7.25</h2> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="italian-style">
+                    <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                        <h5>23%</h5>
+                        <h4><strong>RECOMMENDED</strong></h4>
+                        <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                        <div class="choco-desc">
+                            <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                            <h2 id="IN-STOCK">IN STOCK</h2>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star non-yellow"></i>
+                                <h1>1</h1>
+                            </div>
+                            <div class="sale-price">
+                                <h2 class="price-before">%9.35</h2> 
+                                <h2 class="price-now">$7.25</h2> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="italian-style">
+                    <div style="border-top-left-radius: 0px !important;
+                                border-top-right-radius: 7px !important;" class="sale-and-recommend">
+                        <h5>23%</h5>
+                        <h4><strong>RECOMMENDED</strong></h4>
+                        <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                        <div class="choco-desc">
+                            <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                            <h2 id="IN-STOCK">IN STOCK</h2>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star non-yellow"></i>
+                                <h1>1</h1>
+                            </div>
+                            <div class="sale-price">
+                                <h2 class="price-before">%9.35</h2> 
+                                <h2 class="price-now">$7.25</h2> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="italian-style">
+                    <div class="sale-and-recommend">
+                        <h5>23%</h5>
+                        <h4><strong>RECOMMENDED</strong></h4>
+                        <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                        <div class="choco-desc">
+                            <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                            <h2 id="IN-STOCK">IN STOCK</h2>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star non-yellow"></i>
+                                <h1>1</h1>
+                            </div>
+                            <div class="sale-price">
+                                <h2 class="price-before">%9.35</h2> 
+                                <h2 class="price-now">$7.25</h2> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="italian-style">
+                    <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                        <h5>23%</h5>
+                        <h4><strong>RECOMMENDED</strong></h4>
+                        <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                        <div class="choco-desc">
+                            <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                            <h2 id="IN-STOCK">IN STOCK</h2>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star non-yellow"></i>
+                                <h1>1</h1>
+                            </div>
+                            <div class="sale-price">
+                                <h2 class="price-before">%9.35</h2> 
+                                <h2 class="price-now">$7.25</h2> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="italian-style">
+                    <div style="border-top-left-radius: 0px !important;
+                                border-top-right-radius: 7px !important;" class="sale-and-recommend">
+                        <h5>23%</h5>
+                        <h4><strong>RECOMMENDED</strong></h4>
+                        <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                        <div class="choco-desc">
+                            <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                            <h2 id="IN-STOCK">IN STOCK</h2>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star non-yellow"></i>
+                                <h1>1</h1>
+                            </div>
+                            <div class="sale-price">
+                                <h2 class="price-before">%9.35</h2> 
+                                <h2 class="price-now">$7.25</h2> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+        <div class="weekend-sale">
+            <img src="/assets/img/weekend/wk1.png" alt="">
+            <img src="/assets/img/weekend/wk2.png" alt="">
+        </div>
+        <div class="entry-tittle">
+            <div class="entry1">
+                <h4>BEST SELLERS</h4> 
+                <h5>Do not miss the current offers until the end of March.</h5>
+            </div>
+            <div class="view-all-button">
+                <h5>View All <i class="fa-solid fa-arrow-right-long"></i></h5>
+            </div>
+        </div>
+    
+    
                         
+        
+        <div class="best-sellers-cards slickslider">
+            <div class="italian-style">
+                <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                    <h5>23%</h5>
+                    <h4><strong>RECOMMENDED</strong></h4>
+                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                    <div class="choco-desc">
+                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                        <h2 id="IN-STOCK">IN STOCK</h2>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star non-yellow"></i>
+                            <h1>1</h1>
+                        </div>
+                        <div class="sale-price">
+                            <h2 class="price-before">%9.35</h2> 
+                            <h2 class="price-now">$7.25</h2> 
+                        </div>
+                        <div class="add-to-card-button">
+                            <h1>Add to card</h1>
+                        </div>
                     </div>
-                </div> -->
-                <div class="col-5 second-nav-center">
-                    <form class="second-nav-center-search" action="">
-                        <input type="text" name="" placeholder="Search for products..." id="" class="search">
-                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <div class="italian-style">
+                <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                    <h5>23%</h5>
+                    <h4><strong>RECOMMENDED</strong></h4>
+                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                    <div class="choco-desc">
+                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                        <h2 id="IN-STOCK">IN STOCK</h2>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star non-yellow"></i>
+                            <h1>1</h1>
+                        </div>
+                        <div class="sale-price">
+                            <h2 class="price-before">%9.35</h2> 
+                            <h2 class="price-now">$7.25</h2> 
+                        </div>
+                        <div class="add-to-card-button">
+                            <h1>Add to card</h1>
+                        </div>
+                    </div>
+                </div>
+            </div> <div class="italian-style">
+                <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                    <h5>23%</h5>
+                    <h4><strong>RECOMMENDED</strong></h4>
+                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                    <div class="choco-desc">
+                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                        <h2 id="IN-STOCK">IN STOCK</h2>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star non-yellow"></i>
+                            <h1>1</h1>
+                        </div>
+                        <div class="sale-price">
+                            <h2 class="price-before">%9.35</h2> 
+                            <h2 class="price-now">$7.25</h2> 
+                        </div>
+                        <div class="add-to-card-button">
+                            <h1>Add to card</h1>
+                        </div>
+                    </div>
+                </div>
+            </div> <div class="italian-style">
+                <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                    <h5>23%</h5>
+                    <h4><strong>RECOMMENDED</strong></h4>
+                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                    <div class="choco-desc">
+                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                        <h2 id="IN-STOCK">IN STOCK</h2>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star non-yellow"></i>
+                            <h1>1</h1>
+                        </div>
+                        <div class="sale-price">
+                            <h2 class="price-before">%9.35</h2> 
+                            <h2 class="price-now">$7.25</h2> 
+                        </div>
+                        <div class="add-to-card-button">
+                            <h1>Add to card</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="italian-style">
+                <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                    <h5>23%</h5>
+                    <h4><strong>RECOMMENDED</strong></h4>
+                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                    <div class="choco-desc">
+                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                        <h2 id="IN-STOCK">IN STOCK</h2>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star non-yellow"></i>
+                            <h1>1</h1>
+                        </div>
+                        <div class="sale-price">
+                            <h2 class="price-before">%9.35</h2> 
+                            <h2 class="price-now">$7.25</h2> 
+                        </div>
+                        <div class="add-to-card-button">
+                            <h1>Add to card</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="italian-style">
+                <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                    <h5>23%</h5>
+                    <h4><strong>RECOMMENDED</strong></h4>
+                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                    <div class="choco-desc">
+                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                        <h2 id="IN-STOCK">IN STOCK</h2>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star non-yellow"></i>
+                            <h1>1</h1>
+                        </div>
+                        <div class="sale-price">
+                            <h2 class="price-before">%9.35</h2> 
+                            <h2 class="price-now">$7.25</h2> 
+                        </div>
+                        <div class="add-to-card-button">
+                            <h1>Add to card</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="italian-style">
+                <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                    <h5>23%</h5>
+                    <h4><strong>RECOMMENDED</strong></h4>
+                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                    <div class="choco-desc">
+                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                        <h2 id="IN-STOCK">IN STOCK</h2>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star non-yellow"></i>
+                            <h1>1</h1>
+                        </div>
+                        <div class="sale-price">
+                            <h2 class="price-before">%9.35</h2> 
+                            <h2 class="price-now">$7.25</h2> 
+                        </div>
+                        <div class="add-to-card-button">
+                            <h1>Add to card</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="italian-style">
+                <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                    <h5>23%</h5>
+                    <h4><strong>RECOMMENDED</strong></h4>
+                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                    <div class="choco-desc">
+                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                        <h2 id="IN-STOCK">IN STOCK</h2>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star non-yellow"></i>
+                            <h1>1</h1>
+                        </div>
+                        <div class="sale-price">
+                            <h2 class="price-before">%9.35</h2> 
+                            <h2 class="price-now">$7.25</h2> 
+                        </div>
+                        <div class="add-to-card-button">
+                            <h1>Add to card</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    
+                      
+     
+    <div class="auto-ship-oreder">
+    <h5><strong>SAVE AN EXTRA 5-10 % ON EVERY AUTOSHIP ORDER!</strong></h5>
+    </div>
+    
+    <div class="last-choco-lists-cards">
+        <div class="italian-style">
+            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                <h5>23%</h5>
+                <h4><strong>RECOMMENDED</strong></h4>
+                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                <div class="choco-desc">
+                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                    <h2 id="IN-STOCK">IN STOCK</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star non-yellow"></i>
+                        <h1>1</h1>
+                    </div>
+                    <div class="sale-price">
+                        <h2 class="price-before">%9.35</h2> 
+                        <h2 class="price-now">$7.25</h2> 
+                    </div>
+                    <!-- <div class="add-to-card-button">
+                        <h1>Add to card</h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="italian-style">
+            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                <h5>23%</h5>
+                <h4><strong>RECOMMENDED</strong></h4>
+                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                <div class="choco-desc">
+                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                    <h2 id="IN-STOCK">IN STOCK</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star non-yellow"></i>
+                        <h1>1</h1>
+                    </div>
+                    <div class="sale-price">
+                        <h2 class="price-before">%9.35</h2> 
+                        <h2 class="price-now">$7.25</h2> 
+                    </div>
+                    <!-- <div class="add-to-card-button">
+                        <h1>Add to card</h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="italian-style">
+            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                <h5>23%</h5>
+                <h4><strong>RECOMMENDED</strong></h4>
+                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                <div class="choco-desc">
+                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                    <h2 id="IN-STOCK">IN STOCK</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star non-yellow"></i>
+                        <h1>1</h1>
+                    </div>
+                    <div class="sale-price">
+                        <h2 class="price-before">%9.35</h2> 
+                        <h2 class="price-now">$7.25</h2> 
+                    </div>
+                    <!-- <div class="add-to-card-button">
+                        <h1>Add to card</h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="italian-style">
+            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                <h5>23%</h5>
+                <h4><strong>RECOMMENDED</strong></h4>
+                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                <div class="choco-desc">
+                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                    <h2 id="IN-STOCK">IN STOCK</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star non-yellow"></i>
+                        <h1>1</h1>
+                    </div>
+                    <div class="sale-price">
+                        <h2 class="price-before">%9.35</h2> 
+                        <h2 class="price-now">$7.25</h2> 
+                    </div>
+                    <!-- <div class="add-to-card-button">
+                        <h1>Add to card</h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="italian-style">
+            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                <h5>23%</h5>
+                <h4><strong>RECOMMENDED</strong></h4>
+                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                <div class="choco-desc">
+                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                    <h2 id="IN-STOCK">IN STOCK</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star non-yellow"></i>
+                        <h1>1</h1>
+                    </div>
+                    <div class="sale-price">
+                        <h2 class="price-before">%9.35</h2> 
+                        <h2 class="price-now">$7.25</h2> 
+                    </div>
+                    <!-- <div class="add-to-card-button">
+                        <h1>Add to card</h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="italian-style">
+            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                <h5>23%</h5>
+                <h4><strong>RECOMMENDED</strong></h4>
+                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                <div class="choco-desc">
+                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                    <h2 id="IN-STOCK">IN STOCK</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star non-yellow"></i>
+                        <h1>1</h1>
+                    </div>
+                    <div class="sale-price">
+                        <h2 class="price-before">%9.35</h2> 
+                        <h2 class="price-now">$7.25</h2> 
+                    </div>
+                    <!-- <div class="add-to-card-button">
+                        <h1>Add to card</h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="italian-style">
+            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                <h5>23%</h5>
+                <h4><strong>RECOMMENDED</strong></h4>
+                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                <div class="choco-desc">
+                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                    <h2 id="IN-STOCK">IN STOCK</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star non-yellow"></i>
+                        <h1>1</h1>
+                    </div>
+                    <div class="sale-price">
+                        <h2 class="price-before">%9.35</h2> 
+                        <h2 class="price-now">$7.25</h2> 
+                    </div>
+                    <!-- <div class="add-to-card-button">
+                        <h1>Add to card</h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="italian-style">
+            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                <h5>23%</h5>
+                <h4><strong>RECOMMENDED</strong></h4>
+                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                <div class="choco-desc">
+                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                    <h2 id="IN-STOCK">IN STOCK</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star non-yellow"></i>
+                        <h1>1</h1>
+                    </div>
+                    <div class="sale-price">
+                        <h2 class="price-before">%9.35</h2> 
+                        <h2 class="price-now">$7.25</h2> 
+                    </div>
+                    <!-- <div class="add-to-card-button">
+                        <h1>Add to card</h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="italian-style">
+            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                <h5>23%</h5>
+                <h4><strong>RECOMMENDED</strong></h4>
+                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                <div class="choco-desc">
+                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                    <h2 id="IN-STOCK">IN STOCK</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star non-yellow"></i>
+                        <h1>1</h1>
+                    </div>
+                    <div class="sale-price">
+                        <h2 class="price-before">%9.35</h2> 
+                        <h2 class="price-now">$7.25</h2> 
+                    </div>
+                    <!-- <div class="add-to-card-button">
+                        <h1>Add to card</h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="italian-style">
+            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
+                <h5>23%</h5>
+                <h4><strong>RECOMMENDED</strong></h4>
+                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
+                <div class="choco-desc">
+                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
+                    <h2 id="IN-STOCK">IN STOCK</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star non-yellow"></i>
+                        <h1>1</h1>
+                    </div>
+                    <div class="sale-price">
+                        <h2 class="price-before">%9.35</h2> 
+                        <h2 class="price-now">$7.25</h2> 
+                    </div>
+                    <!-- <div class="add-to-card-button">
+                        <h1>Add to card</h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="after-last-card-lists-1">
+            <img src="/assets/img/after-last-cards/eggs.png" alt="">
+            <img src="/assets/img/after-last-cards/taste.jpg.png" alt="">
+            <img src="/assets/img/after-last-cards/junk.png" alt="">
+        </div>
+        <div class="after-last-card-lists-2">
+            <img src="/assets/img/after-last-cards/vodka.png" alt="">
+            <img src="/assets/img/after-last-cards/plitka.png" alt="">
+            <img src="/assets/img/after-last-cards/ice-cream.png" alt="">
+        </div>
+    </div>
+    <div class="after-last-card-lists-desc">
+        <div class="card-list-desc">
+           <h5>TIPS & TRICKS</h5>
+           <h4>But I must explain to you how all this mistaken idea</h4>
+            <div class="card-list-by-bacola">
+                <h5>3 May 2021</h5>
+                <h4>3 comments</h4>
+                    <div class="by-bacola">
+                        <i>by</i>    
+                        <h3>Bacola</h3>        
+                    </div>
+            </div>
+        </div>
+        <div class="card-list-desc">
+            <h5>GROCERY</h5>
+            <h4>The Problem With Typefaces on the Web</h4>
+             <div class="card-list-by-bacola">
+                 <h5>3 May 2021</h5>
+                 <h4>3 comments</h4>
+                     <div class="by-bacola">
+                         <i>by</i>    
+                         <h3>Bacola</h3>        
+                     </div>
+             </div>
+         </div>
+         <div class="card-list-desc">
+            <h5>GROCERY</h5>
+            <h4>English Breakfast Tea With Tasty Donut Desserts</h4>
+             <div class="card-list-by-bacola">
+                 <h5>2 May 2021</h5>
+                 <h4>3 comments</h4>
+                     <div class="by-bacola">
+                         <i>by</i>    
+                         <h3>Bacola</h3>        
+                     </div>
+             </div>
+         </div>
+    </div>
+    </section>
+    <footer>
+        <div class="discount-background">
+            <div class="discount-location">
+                <div class="discount-desc">
+                    <h5>$20 discount for your first order</h5>
+                    <h3>Join our newsletter and get...</h3>
+                    <div class="join-desc">
+                        <h1>Join our email subscription now to get updates</h1>
+                        <h2>on promotions and coupons.</h2>
+                    </div>
+                    <form class="discount-email" action="">
+                        <input type="email" name="" style="font-family:Arial, FontAwesome" placeholder="&#xf0e0 &#160; Your email address" id="" class="email">
+                        <button type="submit">Subscribe</button>
                     </form>
                 </div>
-                <div class="col-1 second-nav-right">
-                    <div class="user-icon-border">
-                        <i class="fa-regular fa-user"></i>
-                    </div>
-                    <p>$0.00 </p>
-                    <div class="basket-icon-border">
-                        <i class="fa-solid fa-basket-shopping"></i>                        
-                        <div class="basket-num-background">
-                            <p>0</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4 all-categories-menu">
-                        <i class="fa-solid fa-bars"></i>
-                        <p>ALL CATEGORIES</p>
-                        <i class="fa-solid fa-chevron-down second-nav-left-2-icon"></i>
-                        <div class="desc">
-                           <p>TOTAL 63 PRODUCTS</p> 
-                        </div>
-                    </div>
-                    <div class="col-1 empty"></div>
-                    <div class="col-8 menu-row-list">
-                        <p>HOME <i class="fa-solid fa-chevron-down second-nav-left-2-icon"></i></p>
-                        <p>SHOPHOME <i class="fa-solid fa-chevron-down second-nav-left-2-icon"></i></p>
-                        <p><i class="fa-solid fa-drumstick-bite"></i> MEATS & SEAFOODS</p>
-                        <p><i class="fa-solid fa-cake-candles"></i> BAKERY</p>
-                        <p><i class="fa-solid fa-mug-hot"></i> BEVERAGES</p>
-                        <p>BLOG</p>
-                        <p>CONTACT</p>
-                    </div>
+                <div class="img-discount">
+                    <img src="/assets/img/discount-coupn/coupon.png" alt="">
                 </div>
             </div>
         </div>
-    </div>
-        <div class="slide">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./assets/img/first-sale-1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/first-sale-2.png" class="d-block w-100" alt="...">
-                  </div>
-                  
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>        
-        </div>
-            <div class="container fruits">
-                <div class="big-photo">
-                    <img src="/assets/img/after-first-section-1/baverages-1.jpg" alt="">
-                    <h5>Beverages</h5>
-                    <p>11 Items</p>
-                </div>
-                <div class="eight-items">
-                    <div class="biscuit">
-                        <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
-                       <div class="paragraph">
-                        <h4>Biscuits &</h4>
-                        <h4>Snacks</h4>
-                        <h5>6 Items</h5>
-                     </div>
-                    </div>
-                     <div class="biscuit">
-                         <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
-                        <div class="paragraph">
-                         <h4>Biscuits &</h4>
-                         <h4>Snacks</h4>
-                         <h5>6 Items</h5>
-                      </div>
-                    </div>
-                      <div class="biscuit">
-                         <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
-                        <div class="paragraph">
-                         <h4>Biscuits &</h4>
-                         <h4>Snacks</h4>
-                         <h5>6 Items</h5>
-                      </div>
-                    </div>
-                      <div class="biscuit">
-                         <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
-                        <div class="paragraph">
-                         <h4>Biscuits &</h4>
-                         <h4>Snacks</h4>
-                         <h5>6 Items</h5>
-                      </div>
-                     </div> 
-                    <div class="biscuit">
-                        <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
-                       <div class="paragraph">
-                        <h4>Biscuits &</h4>
-                        <h4>Snacks</h4>
-                        <h5>6 Items</h5>
-                     </div>
-                    </div>
-                     <div class="biscuit">
-                         <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
-                        <div class="paragraph">
-                         <h4>Biscuits &</h4>
-                         <h4>Snacks</h4>
-                         <h5>6 Items</h5>
-                      </div>
-                    </div>
-                      <div class="biscuit">
-                         <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
-                        <div class="paragraph">
-                         <h4>Biscuits &</h4>
-                         <h4>Snacks</h4>
-                         <h5>6 Items</h5>
-                      </div>
-                    </div>
-                      <div class="biscuit">
-                         <img src="/assets/img/after-first-section-1/biscuitssnacks-1.jpg" alt="">
-                        <div class="paragraph">
-                         <h4>Biscuits &</h4>
-                         <h4>Snacks</h4>
-                         <h5>6 Items</h5>
-                      </div>
-                     </div>  
-                </div>                  
-        </div>
-<section class="ala">
-    <div  class="second-chocolates">
-        <div class="chobani">
-            <p>Deals of the <strong>week!</strong></p>
-            <div class="countdown">
-                <div class="day"><h4 id="countdown-num">11</h4></div>
-                <p>:</p>
-                <div class="hour"><h4 id="countdown-num">11</h4></div>
-                <p>:</p>
-                <div class="minute"><h4 id="countdown-num">11</h4></div>
-                <p>:</p>
-                <div class="second"><h4 id="countdown-num">11</h4></div>
-            </div>
-           <p class="countdown-desc"> Remains until the end of the offer</p>
-            <div class="sale-div">
-                <h4>19%</h4> 
-            </div>
-            <img src="/assets/img/second-chocolates/chobani/chobani.jpg" alt="">
-            <div class="sale-price">
-            <h5>%5.49</h5> 
-            <h4>$4.49</h4> 
-        </div>
-        <div class="chobani-desc">
-        <p class="chobani-hover">Chobani Complete Vanilla Greek Yogurt</p>
-        </div>
-        <div class="kg">
-            <p>1 kg</p> <span>IN STOCK</span>
-        </div>
-        <div class="star">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <h5>1</h5>
-        </div>
-        <div class="available">
-            <h5>AVAILABLE: </h5>
-            <h4>17</h4>
-        </div>
-        <div class="empty-point">
-            <div class="point">
-
-            </div>
-        </div>
-    </div>
-    <div class="chcoclates-two">
-            <div class="italian-style">
-                <div class="sale-and-recommend">
-                    <h5>23%</h5>
-                    <h4><strong>RECOMMENDED</strong></h4>
-                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                    <div class="choco-desc">
-                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                        <h2 id="IN-STOCK">IN STOCK</h2>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star non-yellow"></i>
-                            <h1>1</h1>
-                        </div>
-                        <div class="sale-price">
-                            <h2 class="price-before">%9.35</h2> 
-                            <h2 class="price-now">$7.25</h2> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="italian-style">
-                <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-                    <h5>23%</h5>
-                    <h4><strong>RECOMMENDED</strong></h4>
-                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                    <div class="choco-desc">
-                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                        <h2 id="IN-STOCK">IN STOCK</h2>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star non-yellow"></i>
-                            <h1>1</h1>
-                        </div>
-                        <div class="sale-price">
-                            <h2 class="price-before">%9.35</h2> 
-                            <h2 class="price-now">$7.25</h2> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="italian-style">
-                <div style="border-top-left-radius: 0px !important;
-                            border-top-right-radius: 7px !important;" class="sale-and-recommend">
-                    <h5>23%</h5>
-                    <h4><strong>RECOMMENDED</strong></h4>
-                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                    <div class="choco-desc">
-                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                        <h2 id="IN-STOCK">IN STOCK</h2>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star non-yellow"></i>
-                            <h1>1</h1>
-                        </div>
-                        <div class="sale-price">
-                            <h2 class="price-before">%9.35</h2> 
-                            <h2 class="price-now">$7.25</h2> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="italian-style">
-                <div class="sale-and-recommend">
-                    <h5>23%</h5>
-                    <h4><strong>RECOMMENDED</strong></h4>
-                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                    <div class="choco-desc">
-                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                        <h2 id="IN-STOCK">IN STOCK</h2>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star non-yellow"></i>
-                            <h1>1</h1>
-                        </div>
-                        <div class="sale-price">
-                            <h2 class="price-before">%9.35</h2> 
-                            <h2 class="price-now">$7.25</h2> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="italian-style">
-                <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-                    <h5>23%</h5>
-                    <h4><strong>RECOMMENDED</strong></h4>
-                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                    <div class="choco-desc">
-                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                        <h2 id="IN-STOCK">IN STOCK</h2>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star non-yellow"></i>
-                            <h1>1</h1>
-                        </div>
-                        <div class="sale-price">
-                            <h2 class="price-before">%9.35</h2> 
-                            <h2 class="price-now">$7.25</h2> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="italian-style">
-                <div style="border-top-left-radius: 0px !important;
-                            border-top-right-radius: 7px !important;" class="sale-and-recommend">
-                    <h5>23%</h5>
-                    <h4><strong>RECOMMENDED</strong></h4>
-                    <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                    <div class="choco-desc">
-                        <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                        <h2 id="IN-STOCK">IN STOCK</h2>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star non-yellow"></i>
-                            <h1>1</h1>
-                        </div>
-                        <div class="sale-price">
-                            <h2 class="price-before">%9.35</h2> 
-                            <h2 class="price-now">$7.25</h2> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-</div>
-    <div class="weekend-sale">
-        <img src="/assets/img/weekend/wk1.png" alt="">
-        <img src="/assets/img/weekend/wk2.png" alt="">
-    </div>
-    <div class="entry-tittle">
-        <div class="entry1">
-            <h4>BEST SELLERS</h4> 
-            <h5>Do not miss the current offers until the end of March.</h5>
-        </div>
-        <div class="view-all-button">
-            <h5>View All <i class="fa-solid fa-arrow-right-long"></i></h5>
-        </div>
-    </div>
-
-
-                    
-    
-    <div class="best-sellers-cards slickslider">
-        <div class="italian-style">
-            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-                <h5>23%</h5>
-                <h4><strong>RECOMMENDED</strong></h4>
-                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                <div class="choco-desc">
-                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                    <h2 id="IN-STOCK">IN STOCK</h2>
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star non-yellow"></i>
-                        <h1>1</h1>
-                    </div>
-                    <div class="sale-price">
-                        <h2 class="price-before">%9.35</h2> 
-                        <h2 class="price-now">$7.25</h2> 
-                    </div>
-                    <div class="add-to-card-button">
-                        <h1>Add to card</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="italian-style">
-            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-                <h5>23%</h5>
-                <h4><strong>RECOMMENDED</strong></h4>
-                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                <div class="choco-desc">
-                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                    <h2 id="IN-STOCK">IN STOCK</h2>
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star non-yellow"></i>
-                        <h1>1</h1>
-                    </div>
-                    <div class="sale-price">
-                        <h2 class="price-before">%9.35</h2> 
-                        <h2 class="price-now">$7.25</h2> 
-                    </div>
-                    <div class="add-to-card-button">
-                        <h1>Add to card</h1>
-                    </div>
-                </div>
-            </div>
-        </div> <div class="italian-style">
-            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-                <h5>23%</h5>
-                <h4><strong>RECOMMENDED</strong></h4>
-                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                <div class="choco-desc">
-                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                    <h2 id="IN-STOCK">IN STOCK</h2>
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star non-yellow"></i>
-                        <h1>1</h1>
-                    </div>
-                    <div class="sale-price">
-                        <h2 class="price-before">%9.35</h2> 
-                        <h2 class="price-now">$7.25</h2> 
-                    </div>
-                    <div class="add-to-card-button">
-                        <h1>Add to card</h1>
-                    </div>
-                </div>
-            </div>
-        </div> <div class="italian-style">
-            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-                <h5>23%</h5>
-                <h4><strong>RECOMMENDED</strong></h4>
-                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                <div class="choco-desc">
-                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                    <h2 id="IN-STOCK">IN STOCK</h2>
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star non-yellow"></i>
-                        <h1>1</h1>
-                    </div>
-                    <div class="sale-price">
-                        <h2 class="price-before">%9.35</h2> 
-                        <h2 class="price-now">$7.25</h2> 
-                    </div>
-                    <div class="add-to-card-button">
-                        <h1>Add to card</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-        <div class="italian-style">
-            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-                <h5>23%</h5>
-                <h4><strong>RECOMMENDED</strong></h4>
-                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                <div class="choco-desc">
-                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                    <h2 id="IN-STOCK">IN STOCK</h2>
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star non-yellow"></i>
-                        <h1>1</h1>
-                    </div>
-                    <div class="sale-price">
-                        <h2 class="price-before">%9.35</h2> 
-                        <h2 class="price-now">$7.25</h2> 
-                    </div>
-                    <div class="add-to-card-button">
-                        <h1>Add to card</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="italian-style">
-            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-                <h5>23%</h5>
-                <h4><strong>RECOMMENDED</strong></h4>
-                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                <div class="choco-desc">
-                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                    <h2 id="IN-STOCK">IN STOCK</h2>
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star non-yellow"></i>
-                        <h1>1</h1>
-                    </div>
-                    <div class="sale-price">
-                        <h2 class="price-before">%9.35</h2> 
-                        <h2 class="price-now">$7.25</h2> 
-                    </div>
-                    <div class="add-to-card-button">
-                        <h1>Add to card</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="italian-style">
-            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-                <h5>23%</h5>
-                <h4><strong>RECOMMENDED</strong></h4>
-                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                <div class="choco-desc">
-                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                    <h2 id="IN-STOCK">IN STOCK</h2>
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star non-yellow"></i>
-                        <h1>1</h1>
-                    </div>
-                    <div class="sale-price">
-                        <h2 class="price-before">%9.35</h2> 
-                        <h2 class="price-now">$7.25</h2> 
-                    </div>
-                    <div class="add-to-card-button">
-                        <h1>Add to card</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="italian-style">
-            <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-                <h5>23%</h5>
-                <h4><strong>RECOMMENDED</strong></h4>
-                <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-                <div class="choco-desc">
-                    <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                    <h2 id="IN-STOCK">IN STOCK</h2>
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star non-yellow"></i>
-                        <h1>1</h1>
-                    </div>
-                    <div class="sale-price">
-                        <h2 class="price-before">%9.35</h2> 
-                        <h2 class="price-now">$7.25</h2> 
-                    </div>
-                    <div class="add-to-card-button">
-                        <h1>Add to card</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-
-                  
- 
-<div class="auto-ship-oreder">
-<h5><strong>SAVE AN EXTRA 5-10 % ON EVERY AUTOSHIP ORDER!</strong></h5>
-</div>
-
-<div class="last-choco-lists-cards">
-    <div class="italian-style">
-        <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-            <h5>23%</h5>
-            <h4><strong>RECOMMENDED</strong></h4>
-            <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-            <div class="choco-desc">
-                <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                <h2 id="IN-STOCK">IN STOCK</h2>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star non-yellow"></i>
-                    <h1>1</h1>
-                </div>
-                <div class="sale-price">
-                    <h2 class="price-before">%9.35</h2> 
-                    <h2 class="price-now">$7.25</h2> 
-                </div>
-                <!-- <div class="add-to-card-button">
-                    <h1>Add to card</h1>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <div class="italian-style">
-        <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-            <h5>23%</h5>
-            <h4><strong>RECOMMENDED</strong></h4>
-            <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-            <div class="choco-desc">
-                <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                <h2 id="IN-STOCK">IN STOCK</h2>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star non-yellow"></i>
-                    <h1>1</h1>
-                </div>
-                <div class="sale-price">
-                    <h2 class="price-before">%9.35</h2> 
-                    <h2 class="price-now">$7.25</h2> 
-                </div>
-                <!-- <div class="add-to-card-button">
-                    <h1>Add to card</h1>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <div class="italian-style">
-        <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-            <h5>23%</h5>
-            <h4><strong>RECOMMENDED</strong></h4>
-            <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-            <div class="choco-desc">
-                <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                <h2 id="IN-STOCK">IN STOCK</h2>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star non-yellow"></i>
-                    <h1>1</h1>
-                </div>
-                <div class="sale-price">
-                    <h2 class="price-before">%9.35</h2> 
-                    <h2 class="price-now">$7.25</h2> 
-                </div>
-                <!-- <div class="add-to-card-button">
-                    <h1>Add to card</h1>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <div class="italian-style">
-        <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-            <h5>23%</h5>
-            <h4><strong>RECOMMENDED</strong></h4>
-            <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-            <div class="choco-desc">
-                <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                <h2 id="IN-STOCK">IN STOCK</h2>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star non-yellow"></i>
-                    <h1>1</h1>
-                </div>
-                <div class="sale-price">
-                    <h2 class="price-before">%9.35</h2> 
-                    <h2 class="price-now">$7.25</h2> 
-                </div>
-                <!-- <div class="add-to-card-button">
-                    <h1>Add to card</h1>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <div class="italian-style">
-        <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-            <h5>23%</h5>
-            <h4><strong>RECOMMENDED</strong></h4>
-            <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-            <div class="choco-desc">
-                <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                <h2 id="IN-STOCK">IN STOCK</h2>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star non-yellow"></i>
-                    <h1>1</h1>
-                </div>
-                <div class="sale-price">
-                    <h2 class="price-before">%9.35</h2> 
-                    <h2 class="price-now">$7.25</h2> 
-                </div>
-                <!-- <div class="add-to-card-button">
-                    <h1>Add to card</h1>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <div class="italian-style">
-        <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-            <h5>23%</h5>
-            <h4><strong>RECOMMENDED</strong></h4>
-            <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-            <div class="choco-desc">
-                <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                <h2 id="IN-STOCK">IN STOCK</h2>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star non-yellow"></i>
-                    <h1>1</h1>
-                </div>
-                <div class="sale-price">
-                    <h2 class="price-before">%9.35</h2> 
-                    <h2 class="price-now">$7.25</h2> 
-                </div>
-                <!-- <div class="add-to-card-button">
-                    <h1>Add to card</h1>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <div class="italian-style">
-        <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-            <h5>23%</h5>
-            <h4><strong>RECOMMENDED</strong></h4>
-            <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-            <div class="choco-desc">
-                <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                <h2 id="IN-STOCK">IN STOCK</h2>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star non-yellow"></i>
-                    <h1>1</h1>
-                </div>
-                <div class="sale-price">
-                    <h2 class="price-before">%9.35</h2> 
-                    <h2 class="price-now">$7.25</h2> 
-                </div>
-                <!-- <div class="add-to-card-button">
-                    <h1>Add to card</h1>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <div class="italian-style">
-        <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-            <h5>23%</h5>
-            <h4><strong>RECOMMENDED</strong></h4>
-            <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-            <div class="choco-desc">
-                <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                <h2 id="IN-STOCK">IN STOCK</h2>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star non-yellow"></i>
-                    <h1>1</h1>
-                </div>
-                <div class="sale-price">
-                    <h2 class="price-before">%9.35</h2> 
-                    <h2 class="price-now">$7.25</h2> 
-                </div>
-                <!-- <div class="add-to-card-button">
-                    <h1>Add to card</h1>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <div class="italian-style">
-        <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-            <h5>23%</h5>
-            <h4><strong>RECOMMENDED</strong></h4>
-            <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-            <div class="choco-desc">
-                <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                <h2 id="IN-STOCK">IN STOCK</h2>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star non-yellow"></i>
-                    <h1>1</h1>
-                </div>
-                <div class="sale-price">
-                    <h2 class="price-before">%9.35</h2> 
-                    <h2 class="price-now">$7.25</h2> 
-                </div>
-                <!-- <div class="add-to-card-button">
-                    <h1>Add to card</h1>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <div class="italian-style">
-        <div style="border-top-left-radius: 0px !important;" class="sale-and-recommend">
-            <h5>23%</h5>
-            <h4><strong>RECOMMENDED</strong></h4>
-            <img src="/assets/img/second-chocolates/other/ital.jpg" alt="">
-            <div class="choco-desc">
-                <h3>All Natural Italian-Style Chicken Meatballs</h3>
-                <h2 id="IN-STOCK">IN STOCK</h2>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star non-yellow"></i>
-                    <h1>1</h1>
-                </div>
-                <div class="sale-price">
-                    <h2 class="price-before">%9.35</h2> 
-                    <h2 class="price-now">$7.25</h2> 
-                </div>
-                <!-- <div class="add-to-card-button">
-                    <h1>Add to card</h1>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <div class="after-last-card-lists-1">
-        <img src="/assets/img/after-last-cards/eggs.png" alt="">
-        <img src="/assets/img/after-last-cards/taste.jpg.png" alt="">
-        <img src="/assets/img/after-last-cards/junk.png" alt="">
-    </div>
-    <div class="after-last-card-lists-2">
-        <img src="/assets/img/after-last-cards/vodka.png" alt="">
-        <img src="/assets/img/after-last-cards/plitka.png" alt="">
-        <img src="/assets/img/after-last-cards/ice-cream.png" alt="">
-    </div>
-</div>
-<div class="after-last-card-lists-desc">
-    <div class="card-list-desc">
-       <h5>TIPS & TRICKS</h5>
-       <h4>But I must explain to you how all this mistaken idea</h4>
-        <div class="card-list-by-bacola">
-            <h5>3 May 2021</h5>
-            <h4>3 comments</h4>
-                <div class="by-bacola">
-                    <i>by</i>    
-                    <h3>Bacola</h3>        
-                </div>
-        </div>
-    </div>
-    <div class="card-list-desc">
-        <h5>GROCERY</h5>
-        <h4>The Problem With Typefaces on the Web</h4>
-         <div class="card-list-by-bacola">
-             <h5>3 May 2021</h5>
-             <h4>3 comments</h4>
-                 <div class="by-bacola">
-                     <i>by</i>    
-                     <h3>Bacola</h3>        
-                 </div>
-         </div>
-     </div>
-     <div class="card-list-desc">
-        <h5>GROCERY</h5>
-        <h4>English Breakfast Tea With Tasty Donut Desserts</h4>
-         <div class="card-list-by-bacola">
-             <h5>2 May 2021</h5>
-             <h4>3 comments</h4>
-                 <div class="by-bacola">
-                     <i>by</i>    
-                     <h3>Bacola</h3>        
-                 </div>
-         </div>
-     </div>
-</div>
-</section>
-<footer>
-    <div class="discount-background">
-        <div class="discount-location">
-            <div class="discount-desc">
-                <h5>$20 discount for your first order</h5>
-                <h3>Join our newsletter and get...</h3>
-                <div class="join-desc">
-                    <h1>Join our email subscription now to get updates</h1>
-                    <h2>on promotions and coupons.</h2>
-                </div>
-                <form class="discount-email" action="">
-                    <input type="email" name="" style="font-family:Arial, FontAwesome" placeholder="&#xf0e0 &#160; Your email address" id="" class="email">
-                    <button type="submit">Subscribe</button>
-                </form>
-            </div>
-            <div class="img-discount">
-                <img src="/assets/img/discount-coupn/coupon.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="footer-backgroundd"></div>
-    <div class="footer-background">
-    <div class="container discount-menu">
-        <h5><i class="fa-regular fa-building"></i>&#160;&#160;Everyday fresh products</h5>
-        <div></div>
-        <h5><i class="fa-solid fa-truck-fast"></i>&#160;&#160;Free delivery for order over $70</h5>
-        <div></div>
-        <h5><i class="fa-solid fa-percent"></i>&#160;&#160;Daily Mega Discounts</h5>
-        <div></div>
-        <h5><i class="fa-solid fa-dollar-sign"></i>&#160;&#160;Best price on the market</h5>
-    </div>
-    <div class="container line-1"></div>
-    
-        <div class="container bacola-menu">
-            <ul><h5>FRUIT & VEGETABLES</h5>
-                <div>
-                    <li>Fresh Vegetables</li>
-                    <li>Herbs & Seasonings</li>
-                    <li>Fresh Fruits</li>
-                    <li>Cuts & Sprouts</li>
-                    <li>Exotic Fruits & Veggies</li>
-                    <li>Packaged Produce</li>
-                    <li>Party Trays</li>
-                </div>
-            </ul>
-            <ul><h5>BREAKFAST & DAIRY</h5>
-                <div>
-                    <li>Milk & Flavoured Milk</li>
-                    <li>Butter and Margarine</li>
-                    <li>Cheese</li>
-                    <li>Eggs Substitutes</li>
-                    <li>Honey</li>
-                    <li>Marmalades</li>
-                    <li>Sour Cream and Dips</li>
-                    <li>Yogurt</li>
-                </div>
-            </ul>
-            <ul><h5>MEAT & SEAFOOD</h5>
-                <div>
-                    <li>Breakfast Sausage</li>
-                    <li>Dinner Sausage</li>
-                    <li>Beef</li>
-                    <li>Chicken</li>
-                    <li>Sliced Deli Meat</li>
-                    <li>Shrimp</li>
-                    <li>Wild Caught Fillets</li>
-                    <li>Crab and Shellfish</li>
-                    <li>Farm Raised Fillets</li>
-                </div>
-            </ul>
-            <ul><h5>BEVERAGES</h5>
-                <div>
-                    <li>Water</li>
-                    <li>Sparkling Water</li>
-                    <li>Soda & Pop</li>
-                    <li>Coffee</li>
-                    <li>Milk & Plant-Based Milk</li>
-                    <li>Tea & Kombucha</li>
-                    <li>Drink Boxes & Pouches</li>
-                    <li>Craft Beer</li>
-                    <li>Wine</li>
-                </div>
-            </ul>
-            <ul><h5>BREADS & BAKERY</h5>
-                <div>
-                    <li>Milk & Flavoured Milk</li>
-                    <li>Butter and Margarine</li>
-                    <li>Cheese</li>
-                    <li>Eggs Substitutes</li>
-                    <li>Honey</li>
-                    <li>Marmalades</li>
-                    <li>Sour Cream and Dips</li>
-                    <li>Yogurt</li>
-                </div>
-            </ul>
-        </div>
-    </div>
-    <div class="container last-footer">
-        <div class="social-location">
-            <div class="social-footer">
-                <div class="icon-phone-footer">
-                    <i class="fa-solid fa-phone"></i>
-                </div>
-                <div class="social-number">
-                    <h5>8 800 555-55</h5>
-                    <h4>Working 8:00 - 22:00</h4>
-                </div>
-            </div>
-            <div class="app-mobile">
-                <DIV class="footer-download-mobile-font">
-                    <h5>Download App on Mobile :</h5>
-                    <h4>15% discount on your first purchase</h4>
-                </DIV>
-                <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/google-play.png" alt="app">
-                <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/app-store.png" alt="app">
-                <div class="footer-social-icon">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </div>
-                <div class="footer-social-icon">
-                    <i class="fa-brands fa-instagram"></i>
-                </div>
-                <div class="footer-social-icon">
-                    <i class="fa-brands fa-twitter"></i>
-                </div>
-            </div>
+        <div class="footer-backgroundd"></div>
+        <div class="footer-background">
+        <div class="container discount-menu">
+            <h5><i class="fa-regular fa-building"></i>&#160;&#160;Everyday fresh products</h5>
+            <div></div>
+            <h5><i class="fa-solid fa-truck-fast"></i>&#160;&#160;Free delivery for order over $70</h5>
+            <div></div>
+            <h5><i class="fa-solid fa-percent"></i>&#160;&#160;Daily Mega Discounts</h5>
+            <div></div>
+            <h5><i class="fa-solid fa-dollar-sign"></i>&#160;&#160;Best price on the market</h5>
         </div>
         <div class="container line-1"></div>
-        <div class="bacola-footer-desc">
-            <div class="bacola-desc-1">
-                <h5>Copyright 2022 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</h5>
+        
+            <div class="container bacola-menu">
+                <ul><h5>FRUIT & VEGETABLES</h5>
+                    <div>
+                        <li>Fresh Vegetables</li>
+                        <li>Herbs & Seasonings</li>
+                        <li>Fresh Fruits</li>
+                        <li>Cuts & Sprouts</li>
+                        <li>Exotic Fruits & Veggies</li>
+                        <li>Packaged Produce</li>
+                        <li>Party Trays</li>
+                    </div>
+                </ul>
+                <ul><h5>BREAKFAST & DAIRY</h5>
+                    <div>
+                        <li>Milk & Flavoured Milk</li>
+                        <li>Butter and Margarine</li>
+                        <li>Cheese</li>
+                        <li>Eggs Substitutes</li>
+                        <li>Honey</li>
+                        <li>Marmalades</li>
+                        <li>Sour Cream and Dips</li>
+                        <li>Yogurt</li>
+                    </div>
+                </ul>
+                <ul><h5>MEAT & SEAFOOD</h5>
+                    <div>
+                        <li>Breakfast Sausage</li>
+                        <li>Dinner Sausage</li>
+                        <li>Beef</li>
+                        <li>Chicken</li>
+                        <li>Sliced Deli Meat</li>
+                        <li>Shrimp</li>
+                        <li>Wild Caught Fillets</li>
+                        <li>Crab and Shellfish</li>
+                        <li>Farm Raised Fillets</li>
+                    </div>
+                </ul>
+                <ul><h5>BEVERAGES</h5>
+                    <div>
+                        <li>Water</li>
+                        <li>Sparkling Water</li>
+                        <li>Soda & Pop</li>
+                        <li>Coffee</li>
+                        <li>Milk & Plant-Based Milk</li>
+                        <li>Tea & Kombucha</li>
+                        <li>Drink Boxes & Pouches</li>
+                        <li>Craft Beer</li>
+                        <li>Wine</li>
+                    </div>
+                </ul>
+                <ul><h5>BREADS & BAKERY</h5>
+                    <div>
+                        <li>Milk & Flavoured Milk</li>
+                        <li>Butter and Margarine</li>
+                        <li>Cheese</li>
+                        <li>Eggs Substitutes</li>
+                        <li>Honey</li>
+                        <li>Marmalades</li>
+                        <li>Sour Cream and Dips</li>
+                        <li>Yogurt</li>
+                    </div>
+                </ul>
             </div>
-            <div class="bacola-desc-2">
-                <h5>Privacy Policy</h5>
-                <h5>Terms and Conditions</h5>
-                <h5>Cookie</h5>
-                <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/payments.jpg" alt="payment">
+        </div>
+        <div class="container last-footer">
+            <div class="social-location">
+                <div class="social-footer">
+                    <div class="icon-phone-footer">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="social-number">
+                        <h5>8 800 555-55</h5>
+                        <h4>Working 8:00 - 22:00</h4>
+                    </div>
+                </div>
+                <div class="app-mobile">
+                    <DIV class="footer-download-mobile-font">
+                        <h5>Download App on Mobile :</h5>
+                        <h4>15% discount on your first purchase</h4>
+                    </DIV>
+                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/google-play.png" alt="app">
+                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/app-store.png" alt="app">
+                    <div class="footer-social-icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="footer-social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="footer-social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container line-1"></div>
+            <div class="bacola-footer-desc">
+                <div class="bacola-desc-1">
+                    <h5>Copyright 2022 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</h5>
+                </div>
+                <div class="bacola-desc-2">
+                    <h5>Privacy Policy</h5>
+                    <h5>Terms and Conditions</h5>
+                    <h5>Cookie</h5>
+                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/payments.jpg" alt="payment">
+                </div>
             </div>
         </div>
     </div>
+   
 </footer>
     
 
