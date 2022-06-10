@@ -2172,6 +2172,7 @@ section .register-div .my-account-login h3:hover {
 }
 
 section .contact-him-tittle h5 {
+  margin-top: 50px;
   font-size: 40px;
   color: #202435;
   font-weight: 400;
@@ -2185,17 +2186,43 @@ section .contact-him-tittle h4 {
   font-weight: 400;
 }
 
-section .contact-section {
+section .contant-section-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1275px;
+}
+
+section .contant-section-div .contact-section {
   width: 370px;
   height: 202px;
   background-color: #f3f3f6;
-  padding: 30px;
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 10px;
 }
 
-section .contact-section i {
+section .contant-section-div .contact-section i {
   position: relative;
-  left: 140px;
+  left: 130px;
   font-size: 36px;
   color: #233A95;
+}
+
+section .contant-section-div .contact-section h5 {
+  font-size: 15px;
+  color: #202435;
+  text-align: center;
+  margin-top: 30px;
+}
+
+section .contant-section-div .contact-section h4 {
+  font-size: 13px;
+  color: #202435;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=index.css.map */

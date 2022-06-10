@@ -1807,6 +1807,7 @@ section{
 section{
     .contact-him-tittle{
         h5{
+            margin-top: 50px;
             font-size: 40px;
             color: #202435;
             font-weight: 400;
@@ -1819,16 +1820,38 @@ section{
             font-weight: 400;
         }
     }
-    .contact-section{
-        width: 370px;
-        height: 202px;
-        background-color: #f3f3f6;
-        padding: 30px;
+    .contant-section-div{
+        display: flex;
+        justify-content: space-around;
+        // background-color: #00b853;
+        width: 1275px;
+        .contact-section{
+            width: 370px;
+            height: 202px;
+            background-color: #f3f3f6;
+            padding: 40px;
+            margin-top: 50px;
+            border-radius: 10px;
         i{
            position: relative;
-           left: 140px;
+           left: 130px;
             font-size: 36px;
             color: #233A95;
         }
+        h5{
+            font-size: 15px;
+            color: #202435;
+            text-align: center;
+            margin-top: 30px;
+        }
+        h4{
+            font-size: 13px;
+            color: #202435;
+            text-align: center;
+            margin-top: 15px;
+            font-weight: 400;
+        }
     }
+    }
+    
 }
