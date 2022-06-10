@@ -2225,4 +2225,28 @@ section .contant-section-div .contact-section h4 {
   margin-top: 15px;
   font-weight: 400;
 }
+
+section .contact-send-us-div {
+  width: 1175px;
+  margin-top: 50px;
+  border: 1px solid #edeef5;
+  padding: 50px;
+  -webkit-box-shadow: 5px 5px 20px 5px #edeef5;
+          box-shadow: 5px 5px 20px 5px #edeef5;
+}
+
+section .contact-send-us-div h5 {
+  margin-top: 40px;
+  font-size: 40px;
+  color: #202435;
+  text-align: center;
+  font-weight: 400;
+}
+
+section .contact-send-us-div h4 {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #202435;
+}
 /*# sourceMappingURL=index.css.map */
