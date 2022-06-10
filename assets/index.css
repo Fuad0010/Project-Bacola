@@ -2177,4 +2177,25 @@ section .contact-him-tittle h5 {
   font-weight: 400;
   text-align: center;
 }
+
+section .contact-him-tittle h4 {
+  font-size: 14px;
+  color: #202435;
+  text-align: center;
+  font-weight: 400;
+}
+
+section .contact-section {
+  width: 370px;
+  height: 202px;
+  background-color: #f3f3f6;
+  padding: 30px;
+}
+
+section .contact-section i {
+  position: relative;
+  left: 140px;
+  font-size: 36px;
+  color: #233A95;
+}
 /*# sourceMappingURL=index.css.map */
