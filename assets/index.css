@@ -204,6 +204,11 @@
   height: 92px;
 }
 
+* .my-nav-bar .my-nav-bar-container .row .second-nav-left-2:hover {
+  -webkit-box-shadow: 1px 1px 5px #3e445a2b;
+          box-shadow: 1px 1px 5px #3e445a2b;
+}
+
 * .my-nav-bar .my-nav-bar-container .row .second-nav-left-2 {
   border: 1px solid #d9d9e9;
   left: -200px;
@@ -559,6 +564,90 @@
 * .my-nav-bar .my-nav-bar-container .row .all-categories-menu .desc p {
   color: #71778e;
   font-size: 10px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list {
+  position: absolute;
+  width: 267px;
+  top: 252.5px;
+  left: 100px;
+  height: auto;
+  background-color: white;
+  padding: 20px;
+  padding-top: 10px !important;
+  padding-bottom: 14px !important;
+  border: 1px solid #3e445a22;
+  border-radius: 1px;
+  z-index: 9997;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 div:hover h4 {
+  color: #2BBEF9;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 div:hover h5 {
+  color: #2BBEF9;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 div {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 div .categorie-menu-icon {
+  padding-right: 10px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 div h5 {
+  color: #3E445A;
+  opacity: 0.8;
+  font-size: 15px;
+  font-weight: 400;
+  margin: left;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 div .i1 {
+  margin-left: 60px;
+  font-size: 10px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 div .i2 {
+  margin-left: 118px;
+  font-size: 10px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 div h4 {
+  font-size: 13px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 .categorie-menu-line {
+  height: 0.5px;
+  width: 100%;
+  background-color: #202435;
+  position: absolute;
+  opacity: 0.2;
+  left: 0px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 .categorie-menu-bot {
+  margin-top: 10px;
+  height: 30px !important;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list .categories-menu-list-1 .categorie-menu-bot h4 {
+  font-size: 14px;
+  color: #3E445A;
+  opacity: 0.8;
 }
 
 * .my-nav-bar .my-nav-bar-container .row .menu-row-list {

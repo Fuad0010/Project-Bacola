@@ -197,7 +197,9 @@
 
         .my-nav-bar-container {
             .row {
-
+                .second-nav-left-2:hover{
+                    box-shadow: 1px 1px 5px #3e445a2b;
+                }
                 .second-nav-left-2 {
                     border: 1px solid #d9d9e9;
                     left: -200px;
@@ -205,6 +207,7 @@
                     position: relative;
                     border-radius: 7px;
                     box-shadow: 1px 1px 2px #3e445a2b;
+                    // transition-duration: 0.2s;
                     cursor: pointer;
                     .second-nav-left-2-icon {
                         font-size: 13px;
@@ -504,9 +507,76 @@
                     }
                 }
 
-                .empty {
-                    // background-color: #2BBEF9;
-
+                .all-categories-menu-list{
+                    position: absolute;
+                    width: 267px;
+                    top: 252.5px;
+                    left: 100px;
+                    height: auto;
+                    background-color: white;
+                    padding: 20px;
+                    padding-top: 10px !important;
+                    padding-bottom: 14px !important;
+                    border: 1px solid #3e445a22;
+                    border-radius: 1px;
+                    z-index: 9997;
+                    .categories-menu-list-1{
+                        div:hover h4{
+                            color: #2BBEF9;
+                            transition: 0.2s;
+                        }
+                        div:hover h5{
+                            color: #2BBEF9;
+                            transition: 0.4s;
+                        }
+                        div{
+                            cursor: pointer;
+                            display: flex;
+                            align-items: center;
+                            height: 45px;
+                            .categorie-menu-icon{
+                                padding-right: 10px;
+                            }
+                            h5{
+                                color: #3E445A;
+                                opacity: 0.8;
+                                font-size: 15px;
+                                font-weight: 400;
+                                margin: left;
+                            }
+                            .i1{
+                                margin-left: 60px;
+                                font-size: 10px;
+                            }
+                            .i2{
+                                margin-left: 118px;
+                                font-size: 10px;
+                            }
+                            h4{
+                                font-size: 13px;
+                                
+                            }
+                        }
+                        .categorie-menu-line{
+                            height: 0.5px;
+                            width: 100%;
+                            background-color: #202435;
+                            position: absolute;
+                            opacity: 0.2;
+                            left: 0px;
+                            
+                        }
+                        .categorie-menu-bot{
+                            margin-top: 10px;
+                            height: 30px !important;
+                            h4{
+                                font-size: 14px;
+                                color: #3E445A;
+                                opacity: 0.8;
+                            }
+                            
+                        }
+                    }
                 }
 
                 .menu-row-list {
