@@ -2170,4 +2170,11 @@ section .register-div .my-account-login h3:hover {
           text-decoration: underline #233a95;
   color: #233A95;
 }
+
+section .contact-him-tittle h5 {
+  font-size: 40px;
+  color: #202435;
+  font-weight: 400;
+  text-align: center;
+}
 /*# sourceMappingURL=index.css.map */
