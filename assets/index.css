@@ -2062,4 +2062,56 @@
 .carousel-control-prev-icon {
   opacity: 0;
 }
+
+section .my-account-line {
+  height: 0.5px;
+  width: 100%;
+  background-color: #202435;
+  opacity: 0.2;
+  margin-top: 85px;
+}
+
+section .my-account-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 140px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 110px;
+  padding-top: 10px;
+}
+
+section .my-account-menu h5 {
+  letter-spacing: -0.2px;
+  font-size: 12px;
+  color: #3E445A;
+}
+
+section .my-account-menu h4 {
+  letter-spacing: -0.2px;
+  font-size: 12px;
+  color: #9b9bb4;
+}
+
+section .register-div {
+  width: 1175px;
+  height: auto;
+  background-color: #00b853;
+  margin-top: 50px;
+}
+
+section .register-div .my-account-login {
+  width: 550px;
+  height: 200px;
+}
+
+section .register-div .my-account-login h5 {
+  font-size: 16px;
+  color: #202435;
+}
 /*# sourceMappingURL=index.css.map */

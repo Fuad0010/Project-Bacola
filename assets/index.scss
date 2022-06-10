@@ -1693,3 +1693,57 @@
 .carousel-control-prev-icon{
     opacity: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+// MY ACCOUNT =========================================================
+section{
+    .my-account-line{
+        height: 0.5px;
+        width: 100%;
+        background-color: #202435;
+        opacity: 0.2;
+        margin-top: 85px;
+    }
+    .my-account-menu{
+        display: flex;
+        width: 140px;
+        // background-color: #00b853;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 110px;
+        padding-top: 10px;
+        h5{
+            letter-spacing: -0.2px;
+            font-size: 12px;
+            color: #3E445A;
+        }
+        h4{
+            letter-spacing: -0.2px;
+            font-size: 12px;
+            color: #9b9bb4;
+        }
+    }
+       .register-div{
+        width: 1175px;
+        height: auto;
+        background-color: #00b853;
+        margin-top: 50px;
+        .my-account-login{
+            width: 550px;
+            height: 200px;
+            h5{
+                font-size: 16px;
+                color: #202435;
+            }
+        }
+    } 
+}
