@@ -1760,6 +1760,16 @@ section{
                 font-size: 14px;
                 color: #202435;
                 font-weight: 400;
+                
+            }
+            .privacy{
+                position: relative;
+                font-size: 13px;
+                top: -26px;
+                left: 450px;
+                cursor: pointer;
+                color: #ed174a;
+                text-decoration: underline #ed174a;
             }
             .my-account-login-input{
                 border: none;

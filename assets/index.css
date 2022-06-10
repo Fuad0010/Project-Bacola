@@ -2138,6 +2138,17 @@ section .register-div .my-account-login h4 {
   font-weight: 400;
 }
 
+section .register-div .my-account-login .privacy {
+  position: relative;
+  font-size: 13px;
+  top: -26px;
+  left: 450px;
+  cursor: pointer;
+  color: #ed174a;
+  -webkit-text-decoration: underline #ed174a;
+          text-decoration: underline #ed174a;
+}
+
 section .register-div .my-account-login .my-account-login-input {
   border: none;
   background-color: #f3f4f7;
