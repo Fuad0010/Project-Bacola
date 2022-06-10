@@ -30,7 +30,7 @@ $('.slickslider').slick({
       }
     ]
   });
-
+//#region modalOnClick
   const myNavBar = document.querySelector(".my-nav-bar");
   let selectLocation=document.getElementById("selectLocation");
   let areaModal=document.getElementById("areaModal");
@@ -62,14 +62,26 @@ myNavBar.querySelector('.row').appendChild(div);
   // allContent.style.filter="brightness(100%)";    
 } 
 
-overlay.onclick=function (){
-  areaModal.style.display="none";
-  const overlay= document.querySelector(".overlay");
+// overlay.onclick=function (){
+//   areaModal.style.display="none";
+//   const overlay= document.querySelector(".overlay");
 
-  myNavBar.querySelector('.row').removeChild(overlay);
+//   myNavBar.querySelector('.row').removeChild(overlay);
 
   // myNavBar.removeChild(div);
   
   // allContent.style.filter="brightness(100%)";    
-} 
+// } 
+//#endregion
 
+const allCategoriesMenu=document.getElementById('allCategoriesMenu');
+const allCategoriesMenuList=document.getElementById('allCategoriesMenuList');
+
+allCategoriesMenu.onclick=function (){
+  if (allCategoriesMenuList.style.display === "none") {
+      allCategoriesMenuList.style.display = "block";
+    }
+    else{
+      allCategoriesMenuList.style.display = "none";
+    }
+};

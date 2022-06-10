@@ -255,6 +255,8 @@
   padding: 24px;
   border-radius: 7px;
   top: 95px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 * .my-nav-bar .my-nav-bar-container .row .select-loaction-modal .fa-x {
@@ -567,6 +569,7 @@
 }
 
 * .my-nav-bar .my-nav-bar-container .row .all-categories-menu-list {
+  display: none;
   position: absolute;
   width: 267px;
   top: 252.5px;
@@ -663,8 +666,30 @@
   margin-left: 25px;
 }
 
-* .my-nav-bar .my-nav-bar-container .row .menu-row-list p {
+* .my-nav-bar .my-nav-bar-container .row .menu-row-list div {
   cursor: pointer;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .menu-row-list div p {
+  position: relative;
+  top: 6px;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .menu-row-list div:hover {
+  background-color: #bcebff72;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+* .my-nav-bar .my-nav-bar-container .row .menu-row-list div:hover p {
+  color: #2bbef9;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 * .slide .carousel .carousel-inner {
