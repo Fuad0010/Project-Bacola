@@ -892,6 +892,11 @@
             }
         }
         .chcoclates-two{
+            width:1454px; 
+            .italian-style-div-location{
+                width: 240px;
+                height: 370px;
+            }
             // background-color: #233A95;
             border: 1px solid #c2c2d3;
             border-radius: 7px;
@@ -900,16 +905,27 @@
             margin-left: 51.5px;
             display: flex;
             flex-wrap: wrap;
+            .italian-style:hover{
+                background-color: white !important;
+                box-shadow: 0px 0px 5px #202435;
+                height: 430px;  
+                position: absolute !important;
+                transition-duration: 0.4s;
+                z-index: 9999 !important;
+                border-radius: 7px !important;
+            }
             .italian-style{
-
+                margin-top: -1px;
+                margin-left: -1px;
+                padding: 18px;
+                border: 1px solid #c2c2d3;
+                border-top-left-radius: 7px;
+                width: 240px;
+                height: 370px;
+                
                 .sale-and-recommend{
-                    margin-top: -1px;
-                    margin-left: -1px;
-                    padding: 18px;
-                    border: 1px solid #c2c2d3;
-                    border-top-left-radius: 7px;
-                    width: 240px;
-                    height: 370px;
+                    width: auto;
+                    height: auto;
                     h4{
                         font-size: 8px;
                         background-color: #71778e;
@@ -940,6 +956,7 @@
                         margin-top: -57px;
                     }
                     .choco-desc{
+                        
                         h3{
                             font-size: 14.5px;
                             cursor: pointer;
@@ -985,8 +1002,38 @@
                             }
                         }
                     }
+                    .add-to-card-button{
+                        display: none !important;   
+
+                    }
+                  
                 }
+                
+                
+                
+                }
+                .italian-style:hover .add-to-card-button{
+                    transition-duration: 0.4s;
+                    display: block !important;
+                    border-radius: 55px;
+                    background-color: #233a95;
+                    width: 194px;
+                    height: 34px;
+                    margin-top: 40px;
+                    z-index: 9999 !important;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer !important;
+                    h1{
+                        text-align: center;
+                        font-size: 12px;
+                        color: white;
+                        position: relative;
+                        top: 10px;
+                    }
             }
+            
         }
         .weekend-sale{
             margin-top: 30px;
@@ -1057,9 +1104,11 @@
             // background-color: #c2c2d3;
             margin-top: 20px;
             .italian-style{
+                    background-color: white;
                     width: 235.6px;
                     height: 380px;
                 .sale-and-recommend{
+
                     margin-top: -1px;
                     margin-left: -1px;
                     padding: 18px;
@@ -1092,7 +1141,7 @@
                     }
                     img{
                         width: 200px;
-                        z-index: -1;
+                        z-index: 99999 !important;
                         position: relative;
                         margin-top: -57px;
                     }
