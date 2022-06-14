@@ -1206,8 +1206,9 @@
 }
 
 * .ala .chcoclates-two .italian-style:hover .add-to-card-button {
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  opacity: 1 !important;
+  -webkit-transition-duration: 0.4s !important;
+          transition-duration: 0.4s !important;
   display: block !important;
   border-radius: 55px;
   background-color: #233a95;
@@ -1333,6 +1334,7 @@
   margin-top: -1px;
   margin-left: -1px;
   padding: 18px;
+  position: absolute;
   border: 1px solid #c2c2d3;
   border-top-left-radius: 7px;
   width: 235.6px;
@@ -1356,9 +1358,13 @@
   width: 80px;
   border-radius: 3px;
   letter-spacing: -0.5px;
+  z-index: 999999 !important;
+  position: relative;
 }
 
 * .ala .best-sellers-cards .italian-style .sale-and-recommend h5 {
+  z-index: 999999 !important;
+  position: relative;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1507,6 +1513,7 @@
 * .ala .last-choco-lists-cards .italian-style .sale-and-recommend {
   margin-top: -1px;
   margin-left: -1px;
+  z-index: 10000003 !important;
   padding: 18px;
   border: 1px solid #c2c2d3;
   border-top-left-radius: 7px;

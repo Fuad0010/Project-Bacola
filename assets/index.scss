@@ -1013,7 +1013,8 @@
                 
                 }
                 .italian-style:hover .add-to-card-button{
-                    transition-duration: 0.4s;
+                    opacity: 1 !important;
+                    transition-duration: 0.4s !important;
                     display: block !important;
                     border-radius: 55px;
                     background-color: #233a95;
@@ -1032,7 +1033,7 @@
                         position: relative;
                         top: 10px;
                     }
-            }
+                }
             
         }
         .weekend-sale{
@@ -1108,10 +1109,10 @@
                     width: 235.6px;
                     height: 380px;
                 .sale-and-recommend{
-
                     margin-top: -1px;
                     margin-left: -1px;
                     padding: 18px;
+                    position: absolute;
                     border: 1px solid #c2c2d3;
                     border-top-left-radius: 7px;
                     width: 235.6px;
@@ -1127,8 +1128,12 @@
                         width: 80px;
                         border-radius: 3px;
                         letter-spacing: -0.5px;
+                        z-index: 999999 !important;
+                        position: relative;
                     }
                     h5{
+                        z-index: 999999 !important;
+                        position: relative;
                         color: white;
                         display: flex;
                         justify-content: center;
@@ -1238,6 +1243,7 @@
                 .sale-and-recommend{
                     margin-top: -1px;
                     margin-left: -1px;
+                    z-index: 10000003 !important;
                     padding: 18px;
                     border: 1px solid #c2c2d3;
                     border-top-left-radius: 7px;
