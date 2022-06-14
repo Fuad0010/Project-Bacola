@@ -2557,4 +2557,78 @@ section .blog .blog-secondary-div .tags-lists div h5 {
 section .blog .blog-main {
   width: 900px;
 }
+
+section .blog .blog-main img {
+  width: 858px;
+  height: 598px;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .blog .blog-main .vodka-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 390px;
+  margin-top: 20px;
+}
+
+section .blog .blog-main .vodka-desc div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .blog .blog-main .vodka-desc h5 {
+  font-size: 14px;
+  color: #71778e;
+  cursor: pointer;
+}
+
+section .blog .blog-main .vodka-desc h5:hover {
+  -webkit-text-decoration: underline #71778e;
+          text-decoration: underline #71778e;
+}
+
+section .blog .blog-main .vodka-desc i {
+  font-size: 13;
+  color: #2BBEF9;
+}
+
+section .blog .blog-main .blog-main-tittle {
+  width: 800px;
+}
+
+section .blog .blog-main .blog-main-tittle h5 {
+  margin-top: 20px;
+  font-size: 36px;
+  color: #202435;
+}
+
+section .blog .blog-main .blog-main-tittle div {
+  height: 158px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 855;
+}
+
+section .blog .blog-main .blog-main-tittle div h4 {
+  line-height: 1.8;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #202435;
+}
 /*# sourceMappingURL=index.css.map */
