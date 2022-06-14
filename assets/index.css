@@ -2331,6 +2331,10 @@ section .blog .blog-secondary-div .blog-tittle {
   font-size: 15px;
 }
 
+section .blog .blog-secondary-div .blog-social-div {
+  padding-bottom: 30px;
+}
+
 section .blog .blog-secondary-div .blog-social-div div:hover {
   -webkit-filter: brightness(1.2);
           filter: brightness(1.2);
