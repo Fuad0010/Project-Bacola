@@ -2193,8 +2193,38 @@ section{
                     }
                 }
             }
+        }
+        .blog-main-div{ 
             .main-div-list-bottom{
-                
+                // padding: 40px;
+                display: flex;
+                justify-content: space-between;
+                width: 150px;
+                height: auto;
+                margin:20px auto;
+                .main-div-list{
+                    width: 35px;
+                    height: 35px;
+                    // background-color: #00b853;
+                    border-radius: 50%;
+                    cursor:pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    h5{
+                        font-size: 14px;
+                        color: #202435;
+                    }
+                    i{
+                        position: relative;
+                        top: -1px;
+                        font-size: 14px;
+                        color: #202435;
+                    }
+                }
+                .main-div-list:hover{
+                    background-color: #71778e27;;
+                }
             }
         }
     }

@@ -2631,4 +2631,48 @@ section .blog .blog-main .blog-main-tittle div h4 {
   font-size: 15px;
   color: #202435;
 }
+
+section .blog .blog-main-div .main-div-list-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 150px;
+  height: auto;
+  margin: 20px auto;
+}
+
+section .blog .blog-main-div .main-div-list-bottom .main-div-list {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .blog .blog-main-div .main-div-list-bottom .main-div-list h5 {
+  font-size: 14px;
+  color: #202435;
+}
+
+section .blog .blog-main-div .main-div-list-bottom .main-div-list i {
+  position: relative;
+  top: -1px;
+  font-size: 14px;
+  color: #202435;
+}
+
+section .blog .blog-main-div .main-div-list-bottom .main-div-list:hover {
+  background-color: #71778e27;
+}
 /*# sourceMappingURL=index.css.map */
